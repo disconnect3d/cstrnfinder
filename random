@@ -1,0 +1,24 @@
+Some nice(?) consistent usage:
+```
+➜  ldns-1.7.1 python3 ~/projects/cstrnfinder/cstrnfinder.py . | grep X
+[XXX] ./keys.c:	if (strncmp(d, "1 rsa", 2) == 0) {    strlen=5, n=2
+[XXX] ./keys.c:	if (strncmp(d, "2 dh", 2) == 0) {    strlen=4, n=2
+[XXX] ./keys.c:	if (strncmp(d, "3 dsa", 2) == 0) {    strlen=5, n=2
+[XXX] ./keys.c:	if (strncmp(d, "4 ecc", 2) == 0) {    strlen=5, n=2
+[XXX] ./keys.c:	if (strncmp(d, "5 rsasha1", 2) == 0) {    strlen=9, n=2
+[XXX] ./keys.c:	if (strncmp(d, "6 dsa", 2) == 0) {    strlen=5, n=2
+[XXX] ./keys.c:	if (strncmp(d, "7 rsasha1", 2) == 0) {    strlen=9, n=2
+[XXX] ./keys.c:	if (strncmp(d, "8 rsasha256", 2) == 0) {    strlen=11, n=2
+[XXX] ./keys.c:	if (strncmp(d, "10 rsasha512", 3) == 0) {    strlen=12, n=3
+[XXX] ./keys.c:	if (strncmp(d, "12 ecc-gost", 3) == 0) {    strlen=11, n=3
+[XXX] ./keys.c:	if (strncmp(d, "13 ecdsap256sha256", 3) == 0) {    strlen=18, n=3
+[XXX] ./keys.c:	if (strncmp(d, "14 ecdsap384sha384", 3) == 0) {    strlen=18, n=3
+[XXX] ./keys.c:	if (strncmp(d, "15 ed25519", 3) == 0) {    strlen=10, n=3
+[XXX] ./keys.c:	if (strncmp(d, "16 ed448", 3) == 0) {    strlen=8, n=3
+[XXX] ./keys.c:	if (strncmp(d, "157 hmac-md5", 4) == 0) {    strlen=12, n=4
+[XXX] ./keys.c:	if (strncmp(d, "158 hmac-sha1", 4) == 0) {    strlen=13, n=4
+[XXX] ./keys.c:	if (strncmp(d, "159 hmac-sha256", 4) == 0) {    strlen=15, n=4
+[XXX] ./keys.c:	if (strncmp(d, "162 hmac-sha224", 4) == 0) {    strlen=15, n=4
+[XXX] ./keys.c:	if (strncmp(d, "164 hmac-sha384", 4) == 0) {    strlen=15, n=4
+[XXX] ./keys.c:	if (strncmp(d, "165 hmac-sha512", 4) == 0) {    strlen=15, n=4
+```

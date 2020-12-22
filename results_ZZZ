@@ -1,0 +1,285 @@
+[ZZZ] ./systemd_results/strncmp:./src/udev/udev-builtin-path_id.c:        if (strncmp(phy_count, "1", 2) != 0)
+[ZZZ] ./gcc_results/strncmp:./libbacktrace/elf.c:	      && strncmp(note->name, "gnu", 4) == 0
+[ZZZ] ./gcc_results/strncmp:./gcc/ubsan.c:  if (xloc.file == null || strncmp(xloc.file, "\1", 2) == 0
+[ZZZ] ./coreboot_results/strncmp:./src/device/oprom/yabel/vbe.c:	if (strncmp((char *) input.signature, "ddc", 4) != 0) {
+[ZZZ] ./freerdp_results/strncmp:./client/common/cmdline.c:	isspecial = (strncmp(path, "*", 2) == 0) ||
+[ZZZ] ./freerdp_results/strncmp:./client/common/cmdline.c:	                    (strncmp(path, "%", 2) == 0)
+[ZZZ] ./freerdp_results/strncmp:./client/common/cmdline.c:				promptforpassword = (strncmp(arg->value, "force", 6) == 0);
+[ZZZ] ./freerdp_results/strncmp:./channels/rdpdr/client/rdpdr_main.c:			bool hotplugall = strncmp(drive->path, "*", 2) == 0;
+[ZZZ] ./radare2_results/strncmp:./libr/asm/p/asm_bf.c:	} else if (!strncmp(buf, "out", 4))        {
+[ZZZ] ./radare2_results/strncmp:./libr/util/ctype.c:			strncmp(type, "char *", 7)) {
+[ZZZ] ./radare2_results/strncmp:./libr/util/ctype.c:						strncmp(type, "char *", 7)) {
+[ZZZ] ./radare2_results/strncmp:./libr/util/ctype.c:					if (!strncmp(type, "char", 5) && elements > 0) {
+[ZZZ] ./radare2_results/strncmp:./libr/util/syscmd.c:	if (!suffix || !strncmp(suffix, "-p", 3)) {
+[ZZZ] ./radare2_results/strncmp:./libr/bin/format/wasm/wasm.c:	if (!(cust = (rbinwasmsection *)r_list_first (customs)) || strncmp(cust->name, "name", 5)) {
+[ZZZ] ./radare2_results/strncmp:./libr/bin/mangling/swift-sd.c:		if (!strncmp(p+1, "c", 2)) {
+[ZZZ] ./radare2_results/strncmp:./libr/io/p/io_winedbg.c:	} else if (!strncmp(cmd, "dp", 3)) {
+[ZZZ] ./radare2_results/strncmp:./libr/io/p/io_winedbg.c:	} else if (!strncmp(cmd, "dm", 3)) {
+[ZZZ] ./radare2_results/strncmp:./shlr/grub/fs/sfs.c:  if (grub_strncmp((char *) (data->rblock.header.magic), "sfs", 4))
+[ZZZ] ./subversion_results/strncmp:./contrib/server-side/svnstsw/src/fso_is_changeable.c:    if (strncmp("/", filename, 2) != 0)
+[ZZZ] ./rtl8192cu-fixes_results/strncmp:./os_dep/linux/ioctl_linux.c:	stop = strncmp(extra, "stop", 5);
+[ZZZ] ./rtl8192cu-fixes_results/strncmp:./os_dep/linux/ioctl_linux.c:	bstoprx = (strncmp(input, "stop", 5)==0)?1:0; // strncmp true is 0
+[ZZZ] ./rtl8192cu-fixes_results/strncmp:./os_dep/linux/ioctl_linux.c:	 bwrite = strncmp(extra, "write", 6); // strncmp true is 0
+[ZZZ] ./rtl8192cu-fixes_results/strncmp:./os_dep/linux/ioctl_linux.c:	if ( strncmp(extra, "all", 4)==0 )
+[ZZZ] ./binutils-gdb_results/strncmp:./bfd/opncls.c:      || strncmp(inote.namedata, "gnu", 4) != 0
+[ZZZ] ./ldns-1.7.1_results/strncmp:./drill/work.c:	if (strncmp(filename, "-", 2) == 0) {
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-keyfetcher.c:			if (strncmp("-4", argv[i], 3) == 0) {
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-keyfetcher.c:			} else if (strncmp("-6", argv[i], 3) == 0) {
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-keyfetcher.c:			} else if (strncmp("-h", argv[i], 3) == 0) {
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-keyfetcher.c:			} else if (strncmp("-s", argv[i], 3) == 0) {
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-dpa.c:					if (strncmp(mc->value, "1", 2) == 0) {
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-dpa.c:								if (strncmp(&str[i], "true", 5) == 0 ||
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-dpa.c:								    strncmp(&str[i], "true", 5) == 0 ||
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-dpa.c:								    strncmp(&str[i], "true", 5) == 0 ||
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-dpa.c:								    strncmp(&str[i], "1", 2) == 0
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-dpa.c:								    strncmp(&str[i], "0", 2) == 0
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-dpa.c:		if (strncmp(argv[i], "-baddns", 8) == 0) {
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-dpa.c:		} else if (strncmp(argv[i], "-notip", 7) == 0) {
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-dpa.c:		} else if (strncmp(argv[i], "-c", 3) == 0) {
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-dpa.c:		} else 	if (strncmp(argv[i], "-f", 3) == 0) {
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-dpa.c:		} else if (strncmp(argv[i], "-h", 3) == 0) {
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-dpa.c:		} else if (strncmp(argv[i], "-p", 3) == 0) {
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-dpa.c:		} else if (strncmp(argv[i], "-of", 4) == 0) {
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-dpa.c:		} else if (strncmp(argv[i], "-ofh", 5) == 0) {
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-dpa.c:		} else if (strncmp(argv[i], "-s", 3) == 0) {
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-dpa.c:		} else if (strncmp(argv[i], "-sf", 4) == 0) {
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-dpa.c:		} else if (strncmp(argv[i], "-u", 3) == 0) {
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-dpa.c:		if (strncmp(hexdumpfilename, "-", 2) != 0) {
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-walk.c:			if (strncmp(argv[i], "-4", 3) == 0) {
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-walk.c:			} else if (strncmp(argv[i], "-6", 3) == 0) {
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-walk.c:			} else if (strncmp(argv[i], "-f", 3) == 0) {
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-walk.c:			} else if (strncmp(argv[i], "-s", 3) == 0) {
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-walk.c:			} else if (strncmp(argv[i], "-v", 3) == 0) {
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-keygen.c:			if (strncmp(optarg, "list", 5) == 0) {
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-resolver.c:	if (argc != 2 || strncmp(argv[1], "-h", 3) == 0) {
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-signzone.c:	if (strncmp(zonefile_name, "-", 2) == 0) {
+[ZZZ] ./ldns-1.7.1_results/strncmp:./examples/ldns-signzone.c:		if (strncmp(outputfile_name, "-", 2) == 0) {
+[ZZZ] ./duda_results/strncmp:./packages/mariadb/deps/libmariadbclient/extra/yassl/src/ssl.cpp:                else if (strncmp(info.name, "des-ede3-cbc", 13) == 0)
+[ZZZ] ./mysql-server_results/strncmp:./storage/ndb/src/kernel/blocks/backup/read.cpp:        if (!strncmp(argv[i], "--print-restored-rows", 22))
+[ZZZ] ./mysql-server_results/strncmp:./client/mysql.cc:            strncmp(link_name, "/dev/null", 10) == 0) {
+[ZZZ] ./mysql-server_results/strncmp:./client/mysql.cc:      if (histfile && strncmp(histfile, "/dev/null", 10) == 0) histfile = null;
+[ZZZ] ./jdk_results/strncmp:./src/java.desktop/share/native/libfreetype/src/truetype/ttobjs.c:             buf[0] == '.' && !ft_strncmp( buf, ".notdef", 8 ) )
+[ZZZ] ./syslog-ng_results/strncmp:./modules/afsocket/systemd-syslog-source.c:          (strncmp("/dev/log", filename, 9) == 0 || strncmp("/run/systemd/journal/syslog", filename, 28) == 0))? true : false;
+[ZZZ] ./fluent-bit_results/strncmp:./lib/libbacktrace-5a99ff7f/elf.c:	      && strncmp(note->name, "gnu", 4) == 0
+[ZZZ] ./ffmpeg-4.2.2_results/strncmp:./libavformat/oggparseskeleton.c:    if (!strncmp(buf, "fishead", 8)) {
+[ZZZ] ./ffmpeg-4.2.2_results/strncmp:./libavformat/oggparseskeleton.c:    } else if (!strncmp(buf, "fisbone", 8)) {
+[ZZZ] ./libressl-3.0.2_results/strncmp:./crypto/x509v3/v3_crld.c:	if (!strncmp(cnf->name, "fullname", 9)) {
+[ZZZ] ./qemu_results/strncmp:./hw/net/virtio-net.c:        if (strncmp(n->net_conf.duplex_str, "half", 5) == 0) {
+[ZZZ] ./qemu_results/strncmp:./hw/net/virtio-net.c:        } else if (strncmp(n->net_conf.duplex_str, "full", 5) == 0) {
+[ZZZ] ./openssl-1.1.1d_results/strncmp:./crypto/x509v3/v3_crld.c:    if (strncmp(cnf->name, "fullname", 9) == 0) {
+[ZZZ] ./gnuplot-5.2.8_results/strncmp:./src/save.c:		 && strncmp(udv->udv_name,"nan",4)) {
+[ZZZ] ./h2o_results/strncmp:./deps/mruby/mrbgems/mruby-io/src/file.c:    if (strncmp(path, "/", 2) == 0) {
+[ZZZ] ./h2o_results/strncmp:./deps/mruby/mrbgems/mruby-io/src/file.c:  if (strncmp(bname, "//", 3) == 0) bname[1] = '\0';  /* patch for cygwin */
+[ZZZ] ./glusterfs_results/strncmp:./xlators/cluster/dht/src/switch.c:        if (strncmp(pattern, "*", 2) == 0) {
+[ZZZ] ./glusterfs_results/strncmp:./xlators/debug/io-stats/src/io-stats.c:    if (!strncmp(filename, "", 1)) {
+[ZZZ] ./sumatrapdf_results/strncmp:./ext/freetype/src/truetype/ttobjs.c:             buf[0] == '.' && !ft_strncmp( buf, ".notdef", 8 ) )
+[ZZZ] ./sumatrapdf_results/strncmp:./ext/jbig2dec/jbig2dec.c:    if (!strncmp(params->output_filename, "-", 2)) {
+[ZZZ] ./sumatrapdf_results/strncmp:./ext/jbig2dec/jbig2dec.c:            if (!strncmp(params.output_filename, "-", 2)) {
+[ZZZ] ./hplip-3.19.12_results/strncmp:./prnt/hpijs/hpijs.cpp:                if (!strncmp(svalue,"officejet", 10))
+[ZZZ] ./xen_results/strncmp:./tools/firmware/hvmloader/util.c:    if ( !strncmp(s, "qemu_xen_traditional", 21) )
+[ZZZ] ./xen_results/strncmp:./tools/firmware/hvmloader/util.c:    else if ( !strncmp(s, "qemu_xen", 9) )
+[ZZZ] ./xrdp_results/strncmp:./sesman/tools/sesadmin.c:    if (0 == g_strncmp(serv, "", 1))
+[ZZZ] ./xrdp_results/strncmp:./sesman/tools/sesadmin.c:    if (0 == g_strncmp(port, "", 1))
+[ZZZ] ./xrdp_results/strncmp:./sesman/tools/sesadmin.c:    if (0 == g_strncmp(user, "", 1))
+[ZZZ] ./xrdp_results/strncmp:./sesman/tools/sesadmin.c:    if (0 == g_strncmp(cmnd, "", 1))
+[ZZZ] ./xrdp_results/strncmp:./sesman/tools/sesadmin.c:    if (0 == g_strncmp(pass, "", 1))
+[ZZZ] ./xrdp_results/strncmp:./sesman/tools/sesadmin.c:    if (0 == g_strncmp(cmnd, "list", 5))
+[ZZZ] ./xrdp_results/strncmp:./sesman/access.c:    if ((0 == g_strncmp(user, "root", 5)) && (0 == g_cfg->sec.allow_root))
+[ZZZ] ./xrdp_results/strncmp:./sesman/access.c:    if ((0 == g_strncmp(user, "root", 5)) && (0 == g_cfg->sec.allow_root))
+[ZZZ] ./llvm_results/strncmp:./lib/objectyaml/machoemitter.cpp:          } else if (0 == strncmp(&sec.sectname[0], "__debug_aranges", 16)) {
+[ZZZ] ./turbovnc_results/strncmp:./unix/xvnc/extras/freetype2/src/truetype/ttobjs.c:             buf[0] == '.' && !ft_strncmp( buf, ".notdef", 8 ) )
+[ZZZ] ./cups_results/strncmp:./cups/ppd-cache.c:      else if (!strcasecmp(keyword, "srgb_8") || !strncmp(keyword, "srgb24", 7) || !strcmp(keyword, "color"))
+[ZZZ] ./libimobiledevice_results/strncmp:./src/debugserver.c:	if (!strncmp(command->name, "qstartnoackmode", 16)) {
+[ZZZ] ./freerdp_results/strnicmp:./libfreerdp/core/proxy.c:		if (_strnicmp("no_proxy", envname, 9) == 0)
+[ZZZ] ./freerdp_results/strnicmp:./client/common/cmdline.c:				if (_strnicmp(cur, "fqdn", 5) == 0)
+[ZZZ] ./freerdp_results/strnicmp:./client/common/cmdline.c:				else if (_strnicmp(cur, "ip", 3) == 0)
+[ZZZ] ./freerdp_results/strnicmp:./client/common/cmdline.c:				else if (_strnicmp(cur, "netbios", 8) == 0)
+[ZZZ] ./freerdp_results/strnicmp:./client/common/cmdline.c:					if (_strnicmp("avc444", val, 7) == 0)
+[ZZZ] ./freerdp_results/strnicmp:./client/common/cmdline.c:					else if (_strnicmp("avc420", val, 7) == 0)
+[ZZZ] ./freerdp_results/strnicmp:./client/common/cmdline.c:					    if (_strnicmp("rfx", val, 4) == 0)
+[ZZZ] ./freerdp_results/strnicmp:./client/common/cmdline.c:					if (_strnicmp("avc444", val, 7) == 0)
+[ZZZ] ./freerdp_results/strnicmp:./client/common/cmdline.c:					else if (_strnicmp("avc420", val, 7) != 0)
+[ZZZ] ./freerdp_results/strnicmp:./client/common/cmdline.c:						if (_strnicmp(val, "on", 3) == 0)
+[ZZZ] ./freerdp_results/strnicmp:./client/common/cmdline.c:						else if (_strnicmp(val, "off", 4) == 0)
+[ZZZ] ./freerdp_results/strnicmp:./client/common/cmdline.c:						if (_strnicmp(val, "visible", 8) == 0)
+[ZZZ] ./freerdp_results/strnicmp:./client/common/cmdline.c:						else if (_strnicmp(val, "hidden", 7) == 0)
+[ZZZ] ./freerdp_results/strnicmp:./client/common/cmdline.c:						if (_strnicmp(val, "always", 7) == 0)
+[ZZZ] ./freerdp_results/strnicmp:./client/common/cmdline.c:						else if (_strnicmp(val, "fullscreen", 11) == 0)
+[ZZZ] ./freerdp_results/strnicmp:./client/common/cmdline.c:						else if (_strnicmp(val, "window", 7) == 0)
+[ZZZ] ./duda_results/strncat:./packages/mariadb/deps/libmariadbclient/extra/yassl/src/log.cpp:        strncat(msg, " bytes of application data", 27);
+[ZZZ] ./duda_results/strncat:./packages/mariadb/deps/libmariadbclient/extra/yassl/src/ssl.cpp:        strncat(name, "\\*", 3);
+[ZZZ] ./duda_results/strncat:./packages/mariadb/deps/libmariadbclient/extra/yassl/src/ssl.cpp:                strncat(name, "\\", 2);
+[ZZZ] ./gnuplot-5.2.8_results/strncat:./src/mouse.c:    strncat(format, "\r", 2);
+[ZZZ] ./gcc_results/strncpy:./gcc/fortran/primary.c:      strncpy(name, "loc", 4);
+[ZZZ] ./radare2_results/strncpy:./libr/asm/arch/arm/armass.c:				strncpy(ao->op, "rsbs", 5);
+[ZZZ] ./duda_results/strncpy:./packages/mariadb/deps/libmariadbclient/extra/yassl/src/log.cpp:            strncpy(msg, "yassl conn done  w/ peer ", 26);
+[ZZZ] ./duda_results/strncpy:./packages/mariadb/deps/libmariadbclient/extra/yassl/src/log.cpp:            strncpy(msg, "yassl conn begun w/ peer ", 26);
+[ZZZ] ./duda_results/strncpy:./packages/mariadb/deps/libmariadbclient/extra/yassl/src/log.cpp:            strncpy(msg, "sent     ", 10); 
+[ZZZ] ./duda_results/strncpy:./packages/mariadb/deps/libmariadbclient/extra/yassl/src/log.cpp:            strncpy(msg, "received ", 10);
+[ZZZ] ./duda_results/strncpy:./packages/mariadb/deps/libmariadbclient/extra/yassl/src/yassl_imp.cpp:    strncpy(cipher_name_, "none", 5);
+[ZZZ] ./rufus_results/strncpy:./src/libcdio/iso9660/iso9660_fs.c:	strncpy(p_stat->filename, ".", 2);
+[ZZZ] ./rufus_results/strncpy:./src/libcdio/iso9660/iso9660_fs.c:	strncpy(p_stat->filename, "..", 3);
+[ZZZ] ./mysql-server_results/strncpy:./plugin/group_replication/src/recovery_state_transfer.cc:  (void)strncpy(recovery_ssl_ca, "", 1);
+[ZZZ] ./mysql-server_results/strncpy:./plugin/group_replication/src/recovery_state_transfer.cc:  (void)strncpy(recovery_ssl_capath, "", 1);
+[ZZZ] ./mysql-server_results/strncpy:./plugin/group_replication/src/recovery_state_transfer.cc:  (void)strncpy(recovery_ssl_cert, "", 1);
+[ZZZ] ./mysql-server_results/strncpy:./plugin/group_replication/src/recovery_state_transfer.cc:  (void)strncpy(recovery_ssl_cipher, "", 1);
+[ZZZ] ./mysql-server_results/strncpy:./plugin/group_replication/src/recovery_state_transfer.cc:  (void)strncpy(recovery_ssl_key, "", 1);
+[ZZZ] ./mysql-server_results/strncpy:./plugin/group_replication/src/recovery_state_transfer.cc:  (void)strncpy(recovery_ssl_crl, "", 1);
+[ZZZ] ./mysql-server_results/strncpy:./plugin/group_replication/src/recovery_state_transfer.cc:  (void)strncpy(recovery_ssl_crlpath, "", 1);
+[ZZZ] ./mysql-server_results/strncpy:./plugin/group_replication/src/recovery_state_transfer.cc:  (void)strncpy(recovery_public_key_path, "", 1);
+[ZZZ] ./mysql-server_results/strncpy:./plugin/group_replication/src/recovery_state_transfer.cc:  (void)strncpy(recovery_tls_version, "", 1);
+[ZZZ] ./mysql-server_results/strncpy:./plugin/group_replication/src/recovery_state_transfer.cc:  (void)strncpy(recovery_tls_ciphersuites, "", 1);
+[ZZZ] ./capstone_results/strncpy:./arch/x86/x86disassembler.c:							strncpy(instr->assembly, "ud0", 4);
+[ZZZ] ./capstone_results/strncpy:./arch/x86/x86disassembler.c:								strncpy(instr->assembly, "endbr64", 8);
+[ZZZ] ./capstone_results/strncpy:./arch/x86/x86disassembler.c:								strncpy(instr->assembly, "endbr32", 8);
+[ZZZ] ./comdb2_results/strncpy:./db/types.c:        strncpy(out->tzname, "utc", 4);                                        \
+[ZZZ] ./glibc-2.30_results/strncpy:./libio/tst-sprintf-ub.c:      strncpy(buf, "ab", 3);
+[ZZZ] ./h2o_results/strncpy:./deps/mruby/mrbgems/mruby-io/src/file.c:    strncpy(buffer, ".", 2);  /* null terminated */
+[ZZZ] ./xen_results/strncpy:./tools/libxl/libxl_utils.c:    strncpy(p, "0x", 3);
+[ZZZ] ./xrdp_results/strncpy:./sesman/config.c:        g_strncpy(cf->listen_address, "0.0.0.0", 8);
+[ZZZ] ./xrdp_results/strncpy:./sesman/config.c:        g_strncpy(cf->listen_port, "3350", 5);
+[ZZZ] ./nanomsg-1.1.5_results/strncpy:./src/transports/ws/cws.c:        strncpy(nn_chunkref_data (&self->resource), "/", 2);
+[ZZZ] ./gcc_results/memcmp:./libbacktrace/pecoff.c:      magic_ok = memcmp(magic, "pe\0", 4) == 0;
+[OK] ./radare2_results/memcmp:./libr/bin/p/bin_te.c:		return !memcmp(buf, "\x56\x5a", 2);    strlen=2, n=2 : arg1='buf', arg2='VZ'
+[OK] ./radare2_results/memcmp:./libr/search/old_xrefs.c:		if (!memcmp(ma, "\x4d\x5a",2)) {    strlen=2, n=2 : arg1='ma', arg2='MZ'
+[ZZZ] ./radare2_results/memcmp:./shlr/grub/fs/cpio.c:	  && ! grub_memcmp(*name, "trailer!!!", 11))
+[ZZZ] ./rtl8192cu-fixes_results/memcmp:./os_dep/linux/ioctl_linux.c:	else if ( _rtw_memcmp( &extra[ 18 ], "keypad", 7 ) )
+[ZZZ] ./miniupnp_results/memcmp:./miniupnpd/upnpdescgen.c:						if(0 == memcmp(acts[i].name, "getlistofportmappings", 22)) {
+[ZZZ] ./miniupnp_results/memcmp:./miniupnpd/upnpdescgen.c:				} else if(0 == memcmp(p, "externalport", 13)
+[ZZZ] ./miniupnp_results/memcmp:./miniupnpd/upnpdescgen.c:				          && 0 == memcmp(acts[i].name, "addanyportmapping", 18)) {
+[ZZZ] ./duda_results/memcmp:./packages/mariadb/deps/libmariadbclient/extra/replace.c:      rep_str[i].found= (my_bool) (!memcmp(pos,"\\^",3) ? 2 : 1);
+[ZZZ] ./mysql-server_results/memcmp:./storage/ndb/src/kernel/blocks/dbdict/dbdict.cpp:  ndbrequire(memcmp(oprec_ptr.p->m_optype, "cta", 4) == 0);
+[ZZZ] ./mysql-server_results/memcmp:./storage/ndb/src/kernel/blocks/dbdict/dbdict.cpp:  if ( memcmp(info.m_optype, "cta", 4) == 0 )
+[ZZZ] ./mysql-server_results/memcmp:./storage/ndb/src/kernel/blocks/dbdict/dbdict.cpp:    ndbrequire(memcmp(oprec_ptr.p->m_optype, "cta", 4) == 0);
+[ZZZ] ./mysql-server_results/memcmp:./storage/ndb/src/kernel/blocks/dbdict/dbdict.cpp:  if (!error_inserted(6223) || memcmp(info.m_optype, "dta", 4) != 0)
+[ZZZ] ./mysql-server_results/memcmp:./storage/ndb/src/kernel/blocks/print_file.cpp:  if(memcmp(page->m_magic, "ndbdisk", 8) != 0)
+[ZZZ] ./fluent-bit_results/memcmp:./lib/libbacktrace-5a99ff7f/pecoff.c:      magic_ok = memcmp(magic, "pe\0", 4) == 0;
+[ZZZ] ./ffmpeg-4.2.2_results/memcmp:./libavformat/oggdec.c:    if (!memcmp("oggs", p->buf, 5) && p->buf[5] <= 0x7)
+[ZZZ] ./ffmpeg-4.2.2_results/memcmp:./libavformat/riffenc.c:                      !memcmp(par->extradata + par->extradata_size - 9, "bottomup", 9);
+[ZZZ] ./ffmpeg-4.2.2_results/memcmp:./libavformat/avidec.c:                            !memcmp(st->codecpar->extradata + st->codecpar->extradata_size - 9, "bottomup", 9))
+[ZZZ] ./ffmpeg-4.2.2_results/memcmp:./libavformat/nuv.c:    if (!memcmp(p->buf, "nuppelvideo", 12))
+[ZZZ] ./ffmpeg-4.2.2_results/memcmp:./libavformat/nuv.c:    if (!memcmp(p->buf, "mythtvvideo", 12))
+[ZZZ] ./ffmpeg-4.2.2_results/memcmp:./libavformat/nuv.c:    is_mythtv = !memcmp(id_string, "mythtvvideo", 12);
+[ZZZ] ./ffmpeg-4.2.2_results/memcmp:./libavcodec/rawdec.c:         !memcmp(avctx->extradata + avctx->extradata_size - 9, "bottomup", 9)) ||
+[ZZZ] ./ffmpeg-4.2.2_results/memcmp:./libavcodec/mvcdec.c:               !memcmp(avctx->extradata + avctx->extradata_size - 9, "bottomup", 9);
+[ZZZ] ./vlc_results/memcmp:./modules/misc/addons/vorepository.c:         memcmp( "repo://", p_finder->psz_uri, 8 ) )
+[ZZZ] ./vlc_results/memcmp:./modules/codec/oggspots.c:    if ( memcmp(p_extra, "spots\0\0", 8) ) {
+[ZZZ] ./vlc_results/memcmp:./modules/demux/mpeg/ts_hotfixes.c:        else if( !memcmp( p_data, "\x00\x00\x01", 4 ) )
+[ZZZ] ./vlc_results/memcmp:./modules/demux/ogg.c:        ! memcmp( p_oggpacket->packet, "fisbone", 8 ) )
+[ZZZ] ./vlc_results/memcmp:./modules/demux/ogg.c:        ! memcmp( p_oggpacket->packet, "index", 6 ) )
+[ZZZ] ./vlc_results/memcmp:./modules/demux/ogg.c:                         ! memcmp( oggpacket.packet, "spots\0\0", 8 ) )
+[ZZZ] ./vlc_results/memcmp:./modules/demux/xa.c:    if( memcmp( peek, "xai", 4 ) && memcmp( peek, "xaj", 4 ) &&
+[ZZZ] ./vlc_results/memcmp:./modules/demux/xa.c:            memcmp( peek, "xa\0", 4 ) )
+[ZZZ] ./vlc_results/memcmp:./modules/demux/hls/hlsstreams.cpp:       !memcmp( p_payload, "com.apple.streaming.transportstreamtimestamp", 45))
+[ZZZ] ./vlc_results/memcmp:./modules/demux/mp4/libmp4.c:    if( !memcmp( p_peek, "\0\0\0", 4 ) ) /* correct header case */
+[ZZZ] ./vlc_results/memcmp:./modules/stream_filter/decomp.c:    if (memcmp(peek, "\xfd\x37\x7a\x58\x5a", 6))
+[ZZZ] ./clang_results/memcmp:./lib/driver/driver.cpp:        if (memcmp(value, "-", 2) == 0) {
+[ZZZ] ./qemu_results/memcmp:./qom/object.c:    if (name_len >= 3 && !memcmp(name + name_len - 3, "[*]", 4)) {
+[ZZZ] ./qemu_results/memcmp:./block/vpc.c:               !!memcmp(footer->creator_app, "tap", 4)) || s->force_use_chs;
+[ZZZ] ./comdb2_results/memcmp:./sqlite/src/shell.c:  if( n==1 && memcmp(zbuf, "sqlite format 3", 16)==0 ){
+[ZZZ] ./comdb2_results/memcmp:./sqlite/src/shell.c.in:  if( n==1 && memcmp(zbuf, "sqlite format 3", 16)==0 ){
+[ZZZ] ./glibc-2.30_results/memcmp:./stdlib/tst-getrandom.c:  if (memcmp(buffer + length, "123", 4) != 0)
+[ZZZ] ./glibc-2.30_results/memcmp:./sysdeps/x86/dl-prop.h:	  && memcmp(note + 1, "gnu", 4) == 0)
+[ZZZ] ./glibc-2.30_results/memcmp:./elf/readelflib.c:		     || memcmp(abi_note + 3, "gnu", 4) != 0)
+[ZZZ] ./glibc-2.30_results/memcmp:./debug/tst-chk1.c:  if (memcmp(buf, "aabcedcba", 10))
+[ZZZ] ./glibc-2.30_results/memcmp:./debug/tst-chk1.c:  if (stpcpy (buf + 8, "f") != buf + 9 || memcmp(buf, "aabcedcbf", 10))
+[ZZZ] ./glibc-2.30_results/memcmp:./debug/tst-chk1.c:  if (memcmp(buf, "aabcedx\0\0", 10))
+[ZZZ] ./glibc-2.30_results/memcmp:./debug/tst-chk1.c:  if (sprintf (buf + 7, "%s", "67") != 2 || memcmp(buf, "aabcedx67", 10))
+[ZZZ] ./glibc-2.30_results/memcmp:./debug/tst-chk1.c:      || memcmp(buf, "aabcedx98", 10))
+[ZZZ] ./glibc-2.30_results/memcmp:./debug/tst-chk1.c:  if (memcmp(buf, "aabcedcba", 10))
+[ZZZ] ./glibc-2.30_results/memcmp:./debug/tst-chk1.c:  if (stpcpy (buf + 8, str2) != buf + 9 || memcmp(buf, "aabcedcbf", 10))
+[ZZZ] ./glibc-2.30_results/memcmp:./debug/tst-chk1.c:  if (memcmp(buf, "aabcedx\0\0", 10))
+[ZZZ] ./glibc-2.30_results/memcmp:./debug/tst-chk1.c:      || memcmp(buf, "aabcecd\0\0", 10))
+[ZZZ] ./glibc-2.30_results/memcmp:./debug/tst-chk1.c:  if (sprintf (buf + 7, "%d", num1) != 2 || memcmp(buf, "aabcecd67", 10))
+[ZZZ] ./glibc-2.30_results/memcmp:./debug/tst-chk1.c:  if (snprintf (buf + 7, 3, "%d", num2) != 6 || memcmp(buf, "aabcecd98", 10))
+[ZZZ] ./glibc-2.30_results/memcmp:./debug/tst-chk1.c:  if (memcmp(buf, "aabcecd9a", 10))
+[ZZZ] ./glibc-2.30_results/memcmp:./debug/tst-chk1.c:  if (memcmp(buf, "aabcecdzy", 10))
+[ZZZ] ./glibc-2.30_results/memcmp:./debug/tst-chk1.c:  if (memcmp(a.buf1, "aabcedcba", 10))
+[ZZZ] ./glibc-2.30_results/memcmp:./debug/tst-chk1.c:      || memcmp(a.buf1, "aabcedcbf", 10))
+[ZZZ] ./glibc-2.30_results/memcmp:./debug/tst-chk1.c:  if (memcmp(a.buf1, "aabcedx\0\0", 10))
+[ZZZ] ./glibc-2.30_results/memcmp:./debug/tst-chk1.c:      || memcmp(a.buf1, "aabcedx67", 10))
+[ZZZ] ./glibc-2.30_results/memcmp:./debug/tst-chk1.c:      || memcmp(a.buf1, "aabcedx98", 10))
+[ZZZ] ./glibc-2.30_results/memcmp:./debug/tst-chk1.c:  if (memcmp(a.buf1, "aabcedx9a", 10))
+[ZZZ] ./glibc-2.30_results/memcmp:./debug/tst-chk1.c:  if (memcmp(a.buf1, "aabcedxzy", 10))
+[ZZZ] ./glibc-2.30_results/memcmp:./debug/tst-chk1.c:  if (gets (buf) != buf || memcmp(buf, "abcdefgh", 9))
+[ZZZ] ./glibc-2.30_results/memcmp:./debug/tst-chk1.c:  if (gets (buf) != buf || memcmp(buf, "abcdefghi", 10))
+[ZZZ] ./glibc-2.30_results/memcmp:./debug/tst-chk1.c:      || memcmp(buf, "abcdefgh\n", 10))
+[ZZZ] ./glibc-2.30_results/memcmp:./debug/tst-chk1.c:  if (fgets (buf, sizeof (buf), stdin) != buf || memcmp(buf, "abcdefghi", 10))
+[ZZZ] ./glibc-2.30_results/memcmp:./debug/tst-chk1.c:      || memcmp(buf, "abcdefgh\n", 10))
+[ZZZ] ./glibc-2.30_results/memcmp:./debug/tst-chk1.c:      || memcmp(buf, "abcdefgh\n", 10))
+[ZZZ] ./glibc-2.30_results/memcmp:./debug/tst-chk1.c:      || memcmp(buf, "abcdefghi", 10))
+[ZZZ] ./glibc-2.30_results/memcmp:./debug/tst-chk1.c:      || memcmp(buf, "abcdefgh\n", 10))
+[OK] ./xen_results/memcmp:./xen/common/decompress.c:    if ( len >= 3 && !memcmp(inbuf, "\x42\x5a\x68", 3) )    strlen=3, n=3 : arg1='inbuf', arg2='BZh'
+[ZZZ] ./xen_results/memcmp:./xen/common/decompress.c:    if ( len >= 6 && !memcmp(inbuf, "\3757zxz", 6) )
+[ZZZ] ./xen_results/memcmp:./xen/common/decompress.c:    if ( len >= 5 && !memcmp(inbuf, "\x89lzo", 5) )
+[ZZZ] ./llvm_results/memcmp:./lib/transforms/utils/simplifylibcalls.cpp:  // strcmp(p, "x") -> memcmp(p, "x", 2)
+[ZZZ] ./cups_results/memcmp:./tools/ippeveprinter.c:    else if (!memcmp(header, "unirast", 8))
+[OK] ./libarchive_results/memcmp:./libarchive/archive_read_support_filter_xz.c:	if (memcmp(buffer, "\xfd\x37\x7a\x58\x5a\x00", 6) != 0)    strlen=6, n=6 : arg1='buffer', arg2='ý7zXZ\x00'
+[ZZZ] ./musl_results/memcmp:./ldso/dynlink.c:			} else if (!memcmp(opt, "list", 5)) {
+[ZZZ] ./xserver_results/memcmp:./hw/xfree86/modes/xf86edidmodes.c:    if (memcmp(ddc->vendor.name, "max", 4) == 0 &&
+[ZZZ] ./xserver_results/memcmp:./hw/xfree86/modes/xf86edidmodes.c:    if (memcmp(ddc->vendor.name, "acr", 4) == 0 && ddc->vendor.prod_id == 44358)
+[ZZZ] ./xserver_results/memcmp:./hw/xfree86/modes/xf86edidmodes.c:    if (memcmp(ddc->vendor.name, "sam", 4) == 0 && ddc->vendor.prod_id == 596)
+[ZZZ] ./xserver_results/memcmp:./hw/xfree86/modes/xf86edidmodes.c:    if (memcmp(ddc->vendor.name, "sam", 4) == 0 && ddc->vendor.prod_id == 638)
+[ZZZ] ./xserver_results/memcmp:./hw/xfree86/modes/xf86edidmodes.c:    if (memcmp(ddc->vendor.name, "api", 4) == 0 &&
+[ZZZ] ./xserver_results/memcmp:./hw/xfree86/modes/xf86edidmodes.c:    if (memcmp(ddc->vendor.name, "fcm", 4) == 0 && ddc->vendor.prod_id == 13600)
+[ZZZ] ./xserver_results/memcmp:./hw/xfree86/modes/xf86edidmodes.c:    if (memcmp(ddc->vendor.name, "fcm", 4) == 0 && ddc->vendor.prod_id == 13600)
+[ZZZ] ./xserver_results/memcmp:./hw/xfree86/modes/xf86edidmodes.c:    if (memcmp(ddc->vendor.name, "fcm", 4) == 0 && ddc->vendor.prod_id == 13600)
+[ZZZ] ./xserver_results/memcmp:./hw/xfree86/modes/xf86edidmodes.c:    if (memcmp(ddc->vendor.name, "lpl", 4) == 0 && ddc->vendor.prod_id == 47360)
+[ZZZ] ./xserver_results/memcmp:./hw/xfree86/modes/xf86edidmodes.c:    if (memcmp(ddc->vendor.name, "lpl", 4) == 0 && ddc->vendor.prod_id == 0)
+[ZZZ] ./xserver_results/memcmp:./hw/xfree86/modes/xf86edidmodes.c:    if (memcmp(ddc->vendor.name, "lpl", 4) == 0 &&
+[ZZZ] ./xserver_results/memcmp:./hw/xfree86/modes/xf86edidmodes.c:    if (memcmp(ddc->vendor.name, "lpl", 4) == 0 && ddc->vendor.prod_id == 5750)
+[ZZZ] ./xserver_results/memcmp:./hw/xfree86/modes/xf86edidmodes.c:    if (memcmp(ddc->vendor.name, "sam", 4) == 0 && ddc->vendor.prod_id == 1157)
+[ZZZ] ./xserver_results/memcmp:./hw/xfree86/modes/xf86edidmodes.c:    if (memcmp(ddc->vendor.name, "ada", 4) == 0 &&
+[ZZZ] ./xserver_results/memcmp:./hw/xfree86/modes/xf86edidmodes.c:    if (memcmp(ddc->vendor.name, "ivm", 4) == 0 && ddc->vendor.prod_id == 6400)
+[ZZZ] ./xserver_results/memcmp:./hw/xfree86/modes/xf86edidmodes.c:    if (memcmp(ddc->vendor.name, "lgd", 4) == 0 &&
+[ZZZ] ./xserver_results/memcmp:./hw/xfree86/modes/xf86edidmodes.c:    if (memcmp(ddc->vendor.name, "mei", 4) == 0 &&
+[ZZZ] ./xserver_results/memcmp:./hw/xfree86/modes/xf86edidmodes.c:    if (memcmp(ddc->vendor.name, "epi", 4) == 0 && ddc->vendor.prod_id == 59264)
+[ZZZ] ./xserver_results/memcmp:./hw/xfree86/modes/xf86edidmodes.c:    if (memcmp(ddc->vendor.name, "phl", 4) == 0 && ddc->vendor.prod_id == 57364)
+[ZZZ] ./xserver_results/memcmp:./hw/xfree86/modes/xf86edidmodes.c:    if (memcmp(ddc->vendor.name, "pts", 4) == 0 && ddc->vendor.prod_id == 765)
+[ZZZ] ./xserver_results/memcmp:./hw/xfree86/modes/xf86edidmodes.c:    if (memcmp(ddc->vendor.name, "acr", 4) == 0 && ddc->vendor.prod_id == 2423)
+[ZZZ] ./xserver_results/memcmp:./hw/xfree86/modes/xf86edidmodes.c:    if (memcmp(ddc->vendor.name, "pea", 4) == 0 && ddc->vendor.prod_id == 9003)
+[ZZZ] ./xserver_results/memcmp:./hw/xfree86/modes/xf86edidmodes.c:    if (memcmp(ddc->vendor.name, "sam", 4) == 0 && ddc->vendor.prod_id == 541)
+[ZZZ] ./xserver_results/memcmp:./hw/xfree86/modes/xf86edidmodes.c:    if (memcmp(ddc->vendor.name, "apl", 4) == 0 &&
+[ZZZ] ./3proxy_results/strncasecmp:./src/proxy.c:			if(strncasecmp((char *)username, "ntlmssp", 8)) continue;
+[ZZZ] ./binutils-gdb_results/strncasecmp:./gas/config/tc-z80.c:  if (strncasecmp(name, "adl", 4) != 0)
+[ZZZ] ./c-toxcore_results/strncasecmp:./other/dht_bootstrap.c:    if (argc == 2 && !tox_strncasecmp(argv[1], "-h", 3)) {
+[ZZZ] ./yaf_results/strncasecmp:./yaf_response.c:	if (strncasecmp(sapi_name, "cli", 4)) {
+[ZZZ] ./comdb2_results/strncasecmp:./db/fdb_access.c:                if (ltok == 4 && strncasecmp(fullname, "read", 5) == 0) {
+[ZZZ] ./comdb2_results/strncasecmp:./db/fdb_access.c:                           strncasecmp(fullname, "write", 6) == 0) {
+[ZZZ] ./comdb2_results/strncasecmp:./db/fdb_access.c:                           strncasecmp(fullname, "execute", 8) == 0) {
+[ZZZ] ./comdb2_results/strncasecmp:./db/fdb_fend.c:        if (strncasecmp(table_name, "sqlite_stat1", 13) != 0) {
+[ZZZ] ./comdb2_results/strncasecmp:./db/fdb_fend.c:            strncasecmp(table_name, "sqlite_stat4", 13) != 0) {
+[ZZZ] ./comdb2_results/strncasecmp:./db/fdb_fend.c:        if (strncasecmp(class, "local", 6) == 0) {
+[ZZZ] ./xrdp_results/strncasecmp:./xrdp/xrdp_wm.c:                if ((g_strncasecmp("globals", q, 8) != 0) &&
+[ZZZ] ./xrdp_results/strncasecmp:./xrdp/xrdp_wm.c:                    (g_strncasecmp("logging", q, 8) != 0) &&
+[ZZZ] ./xrdp_results/strncasecmp:./xrdp/xrdp_wm.c:                    (g_strncasecmp("channels", q, 9) != 0))
+[ZZZ] ./xrdp_results/strncasecmp:./libxrdp/xrdp_sec.c:            if (g_strncasecmp("default", q, 8) != 0)
+[ZZZ] ./gcc_results/strncpy:./gcc/fortran/primary.c:      strncpy(name, "loc", 4);
+[ZZZ] ./radare2_results/strncpy:./libr/asm/arch/arm/armass.c:				strncpy(ao->op, "rsbs", 5);
+[ZZZ] ./duda_results/strncpy:./packages/mariadb/deps/libmariadbclient/extra/yassl/src/log.cpp:            strncpy(msg, "yassl conn done  w/ peer ", 26);
+[ZZZ] ./duda_results/strncpy:./packages/mariadb/deps/libmariadbclient/extra/yassl/src/log.cpp:            strncpy(msg, "yassl conn begun w/ peer ", 26);
+[ZZZ] ./duda_results/strncpy:./packages/mariadb/deps/libmariadbclient/extra/yassl/src/log.cpp:            strncpy(msg, "sent     ", 10); 
+[ZZZ] ./duda_results/strncpy:./packages/mariadb/deps/libmariadbclient/extra/yassl/src/log.cpp:            strncpy(msg, "received ", 10);
+[ZZZ] ./duda_results/strncpy:./packages/mariadb/deps/libmariadbclient/extra/yassl/src/yassl_imp.cpp:    strncpy(cipher_name_, "none", 5);
+[ZZZ] ./rufus_results/strncpy:./src/libcdio/iso9660/iso9660_fs.c:	strncpy(p_stat->filename, ".", 2);
+[ZZZ] ./rufus_results/strncpy:./src/libcdio/iso9660/iso9660_fs.c:	strncpy(p_stat->filename, "..", 3);
+[ZZZ] ./mysql-server_results/strncpy:./plugin/group_replication/src/recovery_state_transfer.cc:  (void)strncpy(recovery_ssl_ca, "", 1);
+[ZZZ] ./mysql-server_results/strncpy:./plugin/group_replication/src/recovery_state_transfer.cc:  (void)strncpy(recovery_ssl_capath, "", 1);
+[ZZZ] ./mysql-server_results/strncpy:./plugin/group_replication/src/recovery_state_transfer.cc:  (void)strncpy(recovery_ssl_cert, "", 1);
+[ZZZ] ./mysql-server_results/strncpy:./plugin/group_replication/src/recovery_state_transfer.cc:  (void)strncpy(recovery_ssl_cipher, "", 1);
+[ZZZ] ./mysql-server_results/strncpy:./plugin/group_replication/src/recovery_state_transfer.cc:  (void)strncpy(recovery_ssl_key, "", 1);
+[ZZZ] ./mysql-server_results/strncpy:./plugin/group_replication/src/recovery_state_transfer.cc:  (void)strncpy(recovery_ssl_crl, "", 1);
+[ZZZ] ./mysql-server_results/strncpy:./plugin/group_replication/src/recovery_state_transfer.cc:  (void)strncpy(recovery_ssl_crlpath, "", 1);
+[ZZZ] ./mysql-server_results/strncpy:./plugin/group_replication/src/recovery_state_transfer.cc:  (void)strncpy(recovery_public_key_path, "", 1);
+[ZZZ] ./mysql-server_results/strncpy:./plugin/group_replication/src/recovery_state_transfer.cc:  (void)strncpy(recovery_tls_version, "", 1);
+[ZZZ] ./mysql-server_results/strncpy:./plugin/group_replication/src/recovery_state_transfer.cc:  (void)strncpy(recovery_tls_ciphersuites, "", 1);
+[ZZZ] ./capstone_results/strncpy:./arch/x86/x86disassembler.c:							strncpy(instr->assembly, "ud0", 4);
+[ZZZ] ./capstone_results/strncpy:./arch/x86/x86disassembler.c:								strncpy(instr->assembly, "endbr64", 8);
+[ZZZ] ./capstone_results/strncpy:./arch/x86/x86disassembler.c:								strncpy(instr->assembly, "endbr32", 8);
+[ZZZ] ./comdb2_results/strncpy:./db/types.c:        strncpy(out->tzname, "utc", 4);                                        \
+[ZZZ] ./glibc-2.30_results/strncpy:./libio/tst-sprintf-ub.c:      strncpy(buf, "ab", 3);
+[ZZZ] ./h2o_results/strncpy:./deps/mruby/mrbgems/mruby-io/src/file.c:    strncpy(buffer, ".", 2);  /* null terminated */
+[ZZZ] ./xen_results/strncpy:./tools/libxl/libxl_utils.c:    strncpy(p, "0x", 3);
+[ZZZ] ./xrdp_results/strncpy:./sesman/config.c:        g_strncpy(cf->listen_address, "0.0.0.0", 8);
+[ZZZ] ./xrdp_results/strncpy:./sesman/config.c:        g_strncpy(cf->listen_port, "3350", 5);
+[ZZZ] ./nanomsg-1.1.5_results/strncpy:./src/transports/ws/cws.c:        strncpy(nn_chunkref_data (&self->resource), "/", 2);

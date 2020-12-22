@@ -1,0 +1,173 @@
+[YYY] ./radare2_results/strncmp:./libr/asm/p/asm_bf.c:	} else if (!strncmp(buf, "in", 4))        {    strlen=2, n=4
+[YYY] ./radare2_results/strncmp:./libr/core/cfile.c:	if (plugin && !strncmp(plugin->name, "any", 5)) {    strlen=3, n=5
+[YYY] ./rtl8192cu-fixes_results/strncmp:./os_dep/linux/ioctl_linux.c:	cotutx = strncmp(extra, "background", 20);    strlen=10, n=20
+[YYY] ./duda_results/strncmp:./packages/mariadb/deps/libmariadbclient/extra/yassl/src/ssl.cpp:                else if (strncmp(info.name, "aes-128-cbc", 13) == 0)    strlen=11, n=13
+[YYY] ./duda_results/strncmp:./packages/mariadb/deps/libmariadbclient/extra/yassl/src/ssl.cpp:                else if (strncmp(info.name, "aes-192-cbc", 13) == 0)    strlen=11, n=13
+[YYY] ./duda_results/strncmp:./packages/mariadb/deps/libmariadbclient/extra/yassl/src/ssl.cpp:                else if (strncmp(info.name, "aes-256-cbc", 13) == 0)    strlen=11, n=13
+[YYY] ./jdk_results/strncmp:./src/hotspot/share/compiler/methodmatcher.cpp:      if ((strncmp("<init>", method_name, 255) != 0) && (strncmp("<clinit>", method_name, 255) != 0)) {    strlen=6, n=255
+[YYY] ./xrdp_results/strncmp:./sesman/verify_user.c:    if (g_strncmp(spw->pw_passwd, "x", 3) == 0)    strlen=1, n=3
+[YYY] ./xrdp_results/strncmp:./sesman/verify_user.c:    if (g_strncmp(spw->pw_passwd, "x", 3) != 0)    strlen=1, n=3
+[YYY] ./xrdp_results/strncmp:./sesman/verify_user.c:    if (g_strncmp(spw->pw_passwd, "x", 3) != 0)    strlen=1, n=3
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_mm.c:        if (!g_strncmp(pam_auth_username, "same", 255))    strlen=4, n=255
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_mm.c:        if (!g_strncmp(pam_auth_password, "same", 255))    strlen=4, n=255
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:                if (g_strncmp(name, "ip", 255) == 0)    strlen=2, n=255
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:                if (g_strncmp(name, "username", 255) == 0 &&    strlen=8, n=255
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:                if ((g_strncmp(name, "password", 255) == 0) || (g_strncmp(name, "pampassword", 255) == 0))    strlen=8, n=255
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:                if (g_strncmp("name", q, 255) == 0)    strlen=4, n=255
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        if (g_strncmp(n, "ini_version", 64) == 0)    strlen=11, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "bitmap_cache", 64) == 0)    strlen=12, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "bitmap_compression", 64) == 0)    strlen=18, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "port", 64) == 0)    strlen=4, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "crypt_level", 64) == 0)    strlen=11, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "allow_channels", 64) == 0)    strlen=14, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "max_bpp", 64) == 0)    strlen=7, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "fork", 64) == 0)    strlen=4, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "tcp_nodelay", 64) == 0)    strlen=11, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "tcp_keepalive", 64) == 0)    strlen=13, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "tcp_send_buffer_bytes", 64) == 0)    strlen=21, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "tcp_recv_buffer_bytes", 64) == 0)    strlen=21, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "grey", 64) == 0)    strlen=4, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "black", 64) == 0)    strlen=5, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "dark_grey", 64) == 0)    strlen=9, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "blue", 64) == 0)    strlen=4, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "dark_blue", 64) == 0)    strlen=9, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "white", 64) == 0)    strlen=5, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "red", 64) == 0)    strlen=3, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "green", 64) == 0)    strlen=5, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "background", 64) == 0)    strlen=10, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "autorun", 255) == 0)    strlen=7, n=255
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "hidelogwindow", 64) == 0)    strlen=13, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "require_credentials", 64) == 0)    strlen=19, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "bulk_compression", 64) == 0)    strlen=16, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "new_cursors", 64) == 0)    strlen=11, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "nego_sec_layer", 64) == 0)    strlen=14, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "allow_multimon", 64) == 0)    strlen=14, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "ls_top_window_bg_color", 64) == 0)    strlen=22, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "ls_width", 64) == 0)    strlen=8, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "ls_height", 64) == 0)    strlen=9, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "ls_bg_color", 64) == 0)    strlen=11, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "ls_title", 255) == 0)    strlen=8, n=255
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "ls_logo_filename", 255) == 0)    strlen=16, n=255
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "ls_background_image", 255) == 0)    strlen=19, n=255
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "ls_logo_x_pos", 64) == 0)    strlen=13, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "ls_logo_y_pos", 64) == 0)    strlen=13, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "ls_label_x_pos", 64) == 0)    strlen=14, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "ls_label_width", 64) == 0)    strlen=14, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "ls_input_x_pos", 64) == 0)    strlen=14, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "ls_input_width", 64) == 0)    strlen=14, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "ls_input_y_pos", 64) == 0)    strlen=14, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "ls_btn_ok_x_pos", 64) == 0)    strlen=15, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "ls_btn_ok_y_pos", 64) == 0)    strlen=15, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "ls_btn_ok_width", 64) == 0)    strlen=15, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "ls_btn_ok_height", 64) == 0)    strlen=16, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "ls_btn_cancel_x_pos", 64) == 0)    strlen=19, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "ls_btn_cancel_y_pos", 64) == 0)    strlen=19, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "ls_btn_cancel_width", 64) == 0)    strlen=19, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_login_wnd.c:        else if (g_strncmp(n, "ls_btn_cancel_height", 64) == 0)    strlen=20, n=64
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_wm.c:                    if (g_strncmp("password", q, 255) == 0)    strlen=8, n=255
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_wm.c:                    else if (g_strncmp("username", q, 255) == 0)    strlen=8, n=255
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_wm.c:                    else if (g_strncmp("ip", q, 255) == 0)    strlen=2, n=255
+[YYY] ./xrdp_results/strncmp:./xrdp/xrdp_wm.c:                    else if (g_strncmp("port", q, 255) == 0)    strlen=4, n=255
+[YYY] ./llvm_results/strncmp:./tools/llvm-objdump/machodump.cpp:        if ((strncmp(sec.sectname, "__objc_selrefs", 16) == 0 ||    strlen=14, n=16
+[YYY] ./llvm_results/strncmp:./tools/llvm-objdump/machodump.cpp:             strncmp(sec.sectname, "__objc_msgrefs", 16) == 0 ||    strlen=14, n=16
+[YYY] ./llvm_results/strncmp:./tools/llvm-objdump/machodump.cpp:             strncmp(sec.sectname, "__cfstring", 16) == 0) &&    strlen=10, n=16
+[YYY] ./llvm_results/strncmp:./tools/llvm-objdump/machodump.cpp:            if (strncmp(sec.sectname, "__objc_selrefs", 16) == 0)    strlen=14, n=16
+[YYY] ./llvm_results/strncmp:./tools/llvm-objdump/machodump.cpp:            else if (strncmp(sec.sectname, "__objc_msgrefs", 16) == 0 &&    strlen=14, n=16
+[YYY] ./llvm_results/strncmp:./tools/llvm-objdump/machodump.cpp:            } else if (strncmp(sec.sectname, "__cfstring", 16) == 0)    strlen=10, n=16
+[YYY] ./llvm_results/strncmp:./lib/objectyaml/machoemitter.cpp:          strncmp(&lc.data.segment_command_data.segname[0], "__linkedit", 16)) {    strlen=10, n=16
+[YYY] ./llvm_results/strncmp:./lib/objectyaml/machoemitter.cpp:        if (0 == strncmp(&sec.segname[0], "__dwarf", 16)) {    strlen=7, n=16
+[YYY] ./llvm_results/strncmp:./lib/objectyaml/machoemitter.cpp:          if (0 == strncmp(&sec.sectname[0], "__debug_str", 16)) {    strlen=11, n=16
+[YYY] ./llvm_results/strncmp:./lib/objectyaml/machoemitter.cpp:          } else if (0 == strncmp(&sec.sectname[0], "__debug_abbrev", 16)) {    strlen=14, n=16
+[YYY] ./llvm_results/strncmp:./lib/objectyaml/machoemitter.cpp:          } else if (0 == strncmp(&sec.sectname[0], "__debug_info", 16)) {    strlen=12, n=16
+[YYY] ./llvm_results/strncmp:./lib/objectyaml/machoemitter.cpp:          } else if (0 == strncmp(&sec.sectname[0], "__debug_line", 16)) {    strlen=12, n=16
+[YYY] ./openssh-portable_results/strncmp:./configure.ac:    if (!s || strncmp(s, "/", 32) != 0) {    strlen=1, n=32
+[YYY] ./cups_results/strncmp:./man/mantohtml.c:      else if (!strncmp(line, ". ", 4))    strlen=2, n=4
+[YYY] ./duda_results/strncat:./packages/mariadb/deps/libmariadbclient/extra/yassl/src/log.cpp:        strncat(msg, " port ", 8);    strlen=6, n=8
+[YYY] ./airconnect_results/strncpy:./common/util.c:	strncpy(areq.arp_dev, "eth0", 15);    strlen=4, n=15
+[YYY] ./glibc-2.30_results/strncpy:./debug/tst-chk1.c:  strncpy(buf + 6, "x", 4);    strlen=1, n=4
+[YYY] ./glibc-2.30_results/strncpy:./debug/tst-chk1.c:  strncpy(buf + 7, "x", 4);    strlen=1, n=4
+[YYY] ./glibc-2.30_results/strncpy:./debug/tst-chk1.c:  strncpy(a.buf1 + (o + 6), "x", 4);    strlen=1, n=4
+[YYY] ./sigmavpn_results/strncpy:./main.c:    strncpy(conf->modulepath, "/usr/local/lib/sigmavpn/", 128);    strlen=24, n=128
+[YYY] ./sigmavpn_results/strncpy:./main.c:    strncpy(conf->configfile, "/usr/local/etc/sigmavpn.conf", 128);    strlen=28, n=128
+[YYY] ./hplip-3.19.12_results/strncpy:./prnt/hpcups/genpclm.cpp:	strncpy(currmedianame,"na_letter_8.5x11in",256);    strlen=18, n=256
+[YYY] ./xrdp_results/strncpy:./sesman/tools/sesadmin.c:        g_strncpy(serv, "localhost", 256);    strlen=9, n=256
+[YYY] ./xrdp_results/strncpy:./sesman/tools/sesadmin.c:        g_strncpy(port, "3350", 256);    strlen=4, n=256
+[YYY] ./xrdp_results/strncpy:./sesman/verify_user_pam.c:        g_strncpy(service_name, "xrdp-sesman", 255);    strlen=11, n=255
+[YYY] ./xrdp_results/strncpy:./sesman/verify_user_pam.c:        g_strncpy(service_name, "gdm", 255);    strlen=3, n=255
+[YYY] ./xrdp_results/strncpy:./keygen/keygen.c:        g_strncpy(filename, "rsakeys.ini", 255);    strlen=11, n=255
+[YYY] ./xrdp_results/strncpy:./xrdp/xrdp_listen.c:            g_strncpy(address, "127.0.0.1", 127);    strlen=9, n=127
+[YYY] ./xrdp_results/strncpy:./xrdp/xrdp_listen.c:            g_strncpy(address, "0.0.0.0", 127);    strlen=7, n=127
+[YYY] ./xrdp_results/strncpy:./xrdp/xrdp_listen.c:            g_strncpy(address, "::1", 127);    strlen=3, n=127
+[YYY] ./xrdp_results/strncpy:./xrdp/xrdp_listen.c:            g_strncpy(address, "::", 127);    strlen=2, n=127
+[YYY] ./xrdp_results/strncpy:./xrdp/xrdp_listen.c:            g_strncpy(address, "0.0.0.0", 127);    strlen=7, n=127
+[YYY] ./llvm_results/strncpy:./lib/profiledata/instrprof.cpp:      strncpy(profilekindname, "indirectcall", 19);    strlen=12, n=19
+[YYY] ./llvm_results/strncpy:./lib/profiledata/instrprof.cpp:      strncpy(profilekindname, "memop", 19);    strlen=5, n=19
+[YYY] ./openssh-portable_results/strncpy:./configure.ac:    strncpy(buf,"/etc", 32);    strlen=4, n=32
+[OK] ./vlc_results/memcmp:./modules/stream_filter/decomp.c:     || memcmp(peek + 4, "\x31\x41\x59\x26\x53\x59", 6))    strlen=6, n=6 : arg1='peek + 4', arg2='1AY&SY'
+[OK] ./libarchive_results/memcmp:./libarchive/archive_read_support_filter_bzip2.c:	if (memcmp(buffer + 4, "\x31\x41\x59\x26\x53\x59", 6) == 0)    strlen=6, n=6 : arg1='buffer + 4', arg2='1AY&SY'
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdp_login_wnd.c:        if ((g_strncasecmp(p, "globals", 255) == 0)    strlen=7, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdp_login_wnd.c:                || (g_strncasecmp(p, "channels", 255) == 0)    strlen=8, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdp_login_wnd.c:                || (g_strncasecmp(p, "logging", 255) == 0))    strlen=7, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdp.c:        if ((g_strncasecmp(option, "-help", 255)) == 0 ||    strlen=5, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdp.c:                (g_strncasecmp(option, "--help", 255)) == 0 ||    strlen=6, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdp.c:                (g_strncasecmp(option, "-h", 255)) == 0)    strlen=2, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdp.c:        else if ((g_strncasecmp(option, "-kill", 255) == 0) ||    strlen=5, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdp.c:                 (g_strncasecmp(option, "--kill", 255) == 0) ||    strlen=6, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdp.c:                 (g_strncasecmp(option, "-k", 255) == 0))    strlen=2, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdp.c:        else if ((g_strncasecmp(option, "-nodaemon", 255) == 0) ||    strlen=9, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdp.c:                 (g_strncasecmp(option, "--nodaemon", 255) == 0) ||    strlen=10, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdp.c:                 (g_strncasecmp(option, "-n", 255) == 0) ||    strlen=2, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdp.c:                 (g_strncasecmp(option, "-nd", 255) == 0) ||    strlen=3, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdp.c:                 (g_strncasecmp(option, "--nd", 255) == 0) ||    strlen=4, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdp.c:                 (g_strncasecmp(option, "-ns", 255) == 0) ||    strlen=3, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdp.c:                 (g_strncasecmp(option, "--ns", 255) == 0))    strlen=4, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdp.c:        else if ((g_strncasecmp(option, "-v", 255) == 0) ||    strlen=2, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdp.c:                 (g_strncasecmp(option, "--version", 255) == 0))    strlen=9, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdp.c:        else if ((g_strncasecmp(option, "-p", 255) == 0) ||    strlen=2, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdp.c:                 (g_strncasecmp(option, "--port", 255) == 0))    strlen=6, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdp.c:        else if ((g_strncasecmp(option, "-f", 255) == 0) ||    strlen=2, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdp.c:                 (g_strncasecmp(option, "--fork", 255) == 0))    strlen=6, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdpwin.c:        if (g_strncasecmp(argv[1], "-help", 255) == 0 ||    strlen=5, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdpwin.c:                g_strncasecmp(argv[1], "--help", 255) == 0 ||    strlen=6, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdpwin.c:                g_strncasecmp(argv[1], "-h", 255) == 0)    strlen=2, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdpwin.c:        else if (g_strncasecmp(argv[1], "-install", 255) == 0 ||    strlen=8, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdpwin.c:                 g_strncasecmp(argv[1], "--install", 255) == 0 ||    strlen=9, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdpwin.c:                 g_strncasecmp(argv[1], "-i", 255) == 0)    strlen=2, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdpwin.c:        else if (g_strncasecmp(argv[1], "-remove", 255) == 0 ||    strlen=7, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdpwin.c:                 g_strncasecmp(argv[1], "--remove", 255) == 0 ||    strlen=8, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdpwin.c:                 g_strncasecmp(argv[1], "-r", 255) == 0)    strlen=2, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdpwin.c:        if ((g_strncasecmp(argv[1], "-kill", 255) == 0) ||    strlen=5, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdpwin.c:                (g_strncasecmp(argv[1], "--kill", 255) == 0) ||    strlen=6, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdpwin.c:                (g_strncasecmp(argv[1], "-k", 255) == 0))    strlen=2, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdpwin.c:        else if (g_strncasecmp(argv[1], "-nodaemon", 255) == 0 ||    strlen=9, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdpwin.c:                 g_strncasecmp(argv[1], "--nodaemon", 255) == 0 ||    strlen=10, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdpwin.c:                 g_strncasecmp(argv[1], "-nd", 255) == 0 ||    strlen=3, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdpwin.c:                 g_strncasecmp(argv[1], "--nd", 255) == 0 ||    strlen=4, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdpwin.c:                 g_strncasecmp(argv[1], "-ns", 255) == 0 ||    strlen=3, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdpwin.c:                 g_strncasecmp(argv[1], "--ns", 255) == 0)    strlen=4, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdpwin.c:        else if (g_strncasecmp(argv[1], "-help", 255) == 0 ||    strlen=5, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdpwin.c:                 g_strncasecmp(argv[1], "--help", 255) == 0 ||    strlen=6, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdpwin.c:                 g_strncasecmp(argv[1], "-h", 255) == 0)    strlen=2, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdpwin.c:        else if ((g_strncasecmp(argv[1], "-v", 255) == 0) ||    strlen=2, n=255
+[YYY] ./xrdp_results/strncasecmp:./xrdp/xrdpwin.c:                 (g_strncasecmp(argv[1], "--version", 255) == 0))    strlen=9, n=255
+[YYY] ./glibc-2.30_results/stpncpy:./debug/tst-chk1.c:  stpncpy(buf + 6, "cd", 5);    strlen=2, n=5
+[YYY] ./airconnect_results/strncpy:./common/util.c:	strncpy(areq.arp_dev, "eth0", 15);    strlen=4, n=15
+[YYY] ./glibc-2.30_results/strncpy:./debug/tst-chk1.c:  strncpy(buf + 6, "x", 4);    strlen=1, n=4
+[YYY] ./glibc-2.30_results/strncpy:./debug/tst-chk1.c:  strncpy(buf + 7, "x", 4);    strlen=1, n=4
+[YYY] ./glibc-2.30_results/strncpy:./debug/tst-chk1.c:  strncpy(a.buf1 + (o + 6), "x", 4);    strlen=1, n=4
+[YYY] ./sigmavpn_results/strncpy:./main.c:    strncpy(conf->modulepath, "/usr/local/lib/sigmavpn/", 128);    strlen=24, n=128
+[YYY] ./sigmavpn_results/strncpy:./main.c:    strncpy(conf->configfile, "/usr/local/etc/sigmavpn.conf", 128);    strlen=28, n=128
+[YYY] ./hplip-3.19.12_results/strncpy:./prnt/hpcups/genpclm.cpp:	strncpy(currmedianame,"na_letter_8.5x11in",256);    strlen=18, n=256
+[YYY] ./xrdp_results/strncpy:./sesman/tools/sesadmin.c:        g_strncpy(serv, "localhost", 256);    strlen=9, n=256
+[YYY] ./xrdp_results/strncpy:./sesman/tools/sesadmin.c:        g_strncpy(port, "3350", 256);    strlen=4, n=256
+[YYY] ./xrdp_results/strncpy:./sesman/verify_user_pam.c:        g_strncpy(service_name, "xrdp-sesman", 255);    strlen=11, n=255
+[YYY] ./xrdp_results/strncpy:./sesman/verify_user_pam.c:        g_strncpy(service_name, "gdm", 255);    strlen=3, n=255
+[YYY] ./xrdp_results/strncpy:./keygen/keygen.c:        g_strncpy(filename, "rsakeys.ini", 255);    strlen=11, n=255
+[YYY] ./xrdp_results/strncpy:./xrdp/xrdp_listen.c:            g_strncpy(address, "127.0.0.1", 127);    strlen=9, n=127
+[YYY] ./xrdp_results/strncpy:./xrdp/xrdp_listen.c:            g_strncpy(address, "0.0.0.0", 127);    strlen=7, n=127
+[YYY] ./xrdp_results/strncpy:./xrdp/xrdp_listen.c:            g_strncpy(address, "::1", 127);    strlen=3, n=127
+[YYY] ./xrdp_results/strncpy:./xrdp/xrdp_listen.c:            g_strncpy(address, "::", 127);    strlen=2, n=127
+[YYY] ./xrdp_results/strncpy:./xrdp/xrdp_listen.c:            g_strncpy(address, "0.0.0.0", 127);    strlen=7, n=127
+[YYY] ./llvm_results/strncpy:./lib/profiledata/instrprof.cpp:      strncpy(profilekindname, "indirectcall", 19);    strlen=12, n=19
+[YYY] ./llvm_results/strncpy:./lib/profiledata/instrprof.cpp:      strncpy(profilekindname, "memop", 19);    strlen=5, n=19
+[YYY] ./openssh-portable_results/strncpy:./configure.ac:    strncpy(buf,"/etc", 32);    strlen=4, n=32

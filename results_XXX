@@ -1,0 +1,144 @@
+[XXX] ./gcc_results/strncmp:./gcc/config/i386/i386.c:      || strncmp(name, ".lbss.", 5) == 0    strlen=6, n=5
+[XXX] ./gcc_results/strncmp:./gcc/config/i386/i386.c:      || strncmp(name, ".gnu.linkonce.lb.", 16) == 0)    strlen=17, n=16
+[XXX] ./gcc_results/strncmp:./gcc/config/darwin-c.c:	  && !strncmp(identifier_pointer (tn), "cfstringref", 8));    strlen=11, n=8
+[XXX] ./gcc_results/strncmp:./gcc/cp/error.c:  if (!strncmp(str, "_zgr", 3))    strlen=4, n=3
+[XXX] ./gcc_results/strncmp:./gcc/c-family/c-attribs.c:  const bool write_only = strncmp(ps, "write_only", 9) == 0;    strlen=10, n=9
+[XXX] ./gcc_results/strncmp:./gcc/c-family/c-attribs.c:  if (!read_only && !write_only && strncmp(ps, "read_write", 9))    strlen=10, n=9
+[XXX] ./freerdp_results/strncmp:./client/common/compatibility.c:			if (strncmp("rdp", arg->value, 1) == 0) /* standard rdp */    strlen=3, n=1
+[XXX] ./freerdp_results/strncmp:./client/common/compatibility.c:			else if (strncmp("tls", arg->value, 1) == 0) /* tls */    strlen=3, n=1
+[XXX] ./freerdp_results/strncmp:./client/common/compatibility.c:			else if (strncmp("nla", arg->value, 1) == 0) /* nla */    strlen=3, n=1
+[XXX] ./radare2_results/strncmp:./libr/core/cmd_info.c:		if (!strncmp(input, "zzz", 2)) {    strlen=3, n=2
+[XXX] ./radare2_results/strncmp:./libr/core/core.c:	bool chgdir = !strncmp(str, "cd  ", 3);    strlen=4, n=3
+[XXX] ./radare2_results/strncmp:./libr/bin/format/mdmp/mdmp_pe.c:				!strncmp(ptr->name, ".rdata", 5)) {    strlen=6, n=5
+[XXX] ./radare2_results/strncmp:./libr/io/p/io_winedbg.c:	} else if (!strncmp(cmd, "dr*", 2)) {    strlen=3, n=2
+[XXX] ./radare2_results/strncmp:./libr/socket/http_server.c:	if (!strncmp((const char *)str, "------------------------------", 10)) {    strlen=30, n=10
+[XXX] ./cairo_results/strncmp:./src/cairo-ps-surface.c:	if (strncmp(comments[i], "%%pagemedia:", 11) == 0)    strlen=12, n=11
+[XXX] ./rtl8192cu-fixes_results/strncmp:./os_dep/linux/ioctl_linux.c:	countpktx = strncmp(extra, "count=", 5); // strncmp true is 0    strlen=6, n=5
+[XXX] ./binutils-gdb_results/strncmp:./gas/config/tc-microblaze.c:  if (strncmp(atp + 1, "gotoff", 5) == 0)    strlen=6, n=5
+[XXX] ./binutils-gdb_results/strncmp:./gas/config/tc-ia64.c:  else if (strncmp(idesc->name, "br.call", 6) == 0    strlen=7, n=6
+[XXX] ./binutils-gdb_results/strncmp:./gas/config/tc-ia64.c:	   || strncmp(idesc->name, "brl.call", 7) == 0)    strlen=8, n=7
+[XXX] ./binutils-gdb_results/strncmp:./ld/emultempl/pep.em:	  place = (!strncmp(secname, ".idata\$", 7) ? &hold[orphan_idata]    strlen=8, n=7
+[XXX] ./binutils-gdb_results/strncmp:./ld/emultempl/pe.em:		if (strncmp(sec->name, ".idata\$", 7) == 0)    strlen=8, n=7
+[XXX] ./binutils-gdb_results/strncmp:./ld/emultempl/pe.em:	  place = (!strncmp(secname, ".idata\$", 7) ? &hold[orphan_idata]    strlen=8, n=7
+[XXX] ./ldns-1.7.1_results/strncmp:./keys.c:	if (strncmp(d, "1 rsa", 2) == 0) {    strlen=5, n=2
+[XXX] ./ldns-1.7.1_results/strncmp:./keys.c:	if (strncmp(d, "2 dh", 2) == 0) {    strlen=4, n=2
+[XXX] ./ldns-1.7.1_results/strncmp:./keys.c:	if (strncmp(d, "3 dsa", 2) == 0) {    strlen=5, n=2
+[XXX] ./ldns-1.7.1_results/strncmp:./keys.c:	if (strncmp(d, "4 ecc", 2) == 0) {    strlen=5, n=2
+[XXX] ./ldns-1.7.1_results/strncmp:./keys.c:	if (strncmp(d, "5 rsasha1", 2) == 0) {    strlen=9, n=2
+[XXX] ./ldns-1.7.1_results/strncmp:./keys.c:	if (strncmp(d, "6 dsa", 2) == 0) {    strlen=5, n=2
+[XXX] ./ldns-1.7.1_results/strncmp:./keys.c:	if (strncmp(d, "7 rsasha1", 2) == 0) {    strlen=9, n=2
+[XXX] ./ldns-1.7.1_results/strncmp:./keys.c:	if (strncmp(d, "8 rsasha256", 2) == 0) {    strlen=11, n=2
+[XXX] ./ldns-1.7.1_results/strncmp:./keys.c:	if (strncmp(d, "10 rsasha512", 3) == 0) {    strlen=12, n=3
+[XXX] ./ldns-1.7.1_results/strncmp:./keys.c:	if (strncmp(d, "12 ecc-gost", 3) == 0) {    strlen=11, n=3
+[XXX] ./ldns-1.7.1_results/strncmp:./keys.c:	if (strncmp(d, "13 ecdsap256sha256", 3) == 0) {    strlen=18, n=3
+[XXX] ./ldns-1.7.1_results/strncmp:./keys.c:	if (strncmp(d, "14 ecdsap384sha384", 3) == 0) {    strlen=18, n=3
+[XXX] ./ldns-1.7.1_results/strncmp:./keys.c:	if (strncmp(d, "15 ed25519", 3) == 0) {    strlen=10, n=3
+[XXX] ./ldns-1.7.1_results/strncmp:./keys.c:	if (strncmp(d, "16 ed448", 3) == 0) {    strlen=8, n=3
+[XXX] ./ldns-1.7.1_results/strncmp:./keys.c:	if (strncmp(d, "157 hmac-md5", 4) == 0) {    strlen=12, n=4
+[XXX] ./ldns-1.7.1_results/strncmp:./keys.c:	if (strncmp(d, "158 hmac-sha1", 4) == 0) {    strlen=13, n=4
+[XXX] ./ldns-1.7.1_results/strncmp:./keys.c:	if (strncmp(d, "159 hmac-sha256", 4) == 0) {    strlen=15, n=4
+[XXX] ./ldns-1.7.1_results/strncmp:./keys.c:	if (strncmp(d, "162 hmac-sha224", 4) == 0) {    strlen=15, n=4
+[XXX] ./ldns-1.7.1_results/strncmp:./keys.c:	if (strncmp(d, "164 hmac-sha384", 4) == 0) {    strlen=15, n=4
+[XXX] ./ldns-1.7.1_results/strncmp:./keys.c:	if (strncmp(d, "165 hmac-sha512", 4) == 0) {    strlen=15, n=4
+[XXX] ./jdk_results/strncmp:./src/java.desktop/unix/native/libawt_xawt/awt/gtk3_interface.c:           strncmp(&detail[1], "scrollbar_", 9) == 0)    strlen=10, n=9
+[XXX] ./libressl-3.0.2_results/strncmp:./apps/nc/socks.c:		    (strncmp(buf, "http/1.0 407 ", 12) == 0 ||    strlen=13, n=12
+[XXX] ./libressl-3.0.2_results/strncmp:./apps/nc/socks.c:		    strncmp(buf, "http/1.1 407 ", 12) == 0)) {    strlen=13, n=12
+[XXX] ./libressl-3.0.2_results/strncmp:./apps/nc/socks.c:		} else if (strncmp(buf, "http/1.0 200 ", 12) != 0 &&    strlen=13, n=12
+[XXX] ./libressl-3.0.2_results/strncmp:./apps/nc/socks.c:		    strncmp(buf, "http/1.1 200 ", 12) != 0)    strlen=13, n=12
+[XXX] ./qemu_results/strncmp:./monitor/misc.c:        if (!strncmp(info->type, "child<", 5)    strlen=6, n=5
+[XXX] ./comdb2_results/strncmp:./plugins/dbqueuedb/dbqueuedb.c:            strncmp(method, "lua:4" , 4) == 0 ||    strlen=5, n=4
+[XXX] ./comdb2_results/strncmp:./lua/sp.c:    else if (strncmp("datetimeus", ctype, 8) == 0)    strlen=10, n=8
+[XXX] ./comdb2_results/strncmp:./db/sqlinterfaces.c:    else if (strncmp("datetimeus", ctype, 9) == 0)    strlen=10, n=9
+[XXX] ./gnuplot-5.2.8_results/strncmp:./src/plot.c:	} else if (!strncmp(argv[i], "-persist", 2) || !strcmp(argv[i], "--persist")    strlen=8, n=2
+[XXX] ./gnuplot-5.2.8_results/strncmp:./src/plot.c:	} else if (!strncmp(argv[i], "-slow", 2) || !strcmp(argv[i], "--slow")) {    strlen=5, n=2
+[XXX] ./gnuplot-5.2.8_results/strncmp:./src/plot.c:	    if (!strncmp(*argv, "-persist", 2) || !strcmp(*argv, "--persist")    strlen=8, n=2
+[XXX] ./gnuplot-5.2.8_results/strncmp:./src/plot.c:	    } else if (!strncmp(*argv, "-slow", 2) || !strcmp(*argv, "--slow")) {    strlen=5, n=2
+[XXX] ./libpng-1.6.37_results/strncmp:./contrib/gregbook/rpng-win.c:        if (!strncmp(*argv, "-gamma", 2)) {    strlen=6, n=2
+[XXX] ./libpng-1.6.37_results/strncmp:./contrib/gregbook/rpng-win.c:        } else if (!strncmp(*argv, "-bgcolor", 2)) {    strlen=8, n=2
+[XXX] ./libpng-1.6.37_results/strncmp:./contrib/gregbook/rpng2-win.c:        if (!strncmp(*argv, "-gamma", 2)) {    strlen=6, n=2
+[XXX] ./libpng-1.6.37_results/strncmp:./contrib/gregbook/rpng2-win.c:        } else if (!strncmp(*argv, "-bgcolor", 4)) {    strlen=8, n=4
+[XXX] ./libpng-1.6.37_results/strncmp:./contrib/gregbook/rpng2-win.c:        } else if (!strncmp(*argv, "-bgpat", 4)) {    strlen=6, n=4
+[XXX] ./libpng-1.6.37_results/strncmp:./contrib/gregbook/rpng2-win.c:        } else if (!strncmp(*argv, "-timing", 2)) {    strlen=7, n=2
+[XXX] ./libpng-1.6.37_results/strncmp:./contrib/gregbook/rpng-x.c:        if (!strncmp(*argv, "-display", 2)) {    strlen=8, n=2
+[XXX] ./libpng-1.6.37_results/strncmp:./contrib/gregbook/rpng-x.c:        } else if (!strncmp(*argv, "-gamma", 2)) {    strlen=6, n=2
+[XXX] ./libpng-1.6.37_results/strncmp:./contrib/gregbook/rpng-x.c:        } else if (!strncmp(*argv, "-bgcolor", 2)) {    strlen=8, n=2
+[XXX] ./libpng-1.6.37_results/strncmp:./contrib/gregbook/rpng2-x.c:        if (!strncmp(*argv, "-display", 2)) {    strlen=8, n=2
+[XXX] ./libpng-1.6.37_results/strncmp:./contrib/gregbook/rpng2-x.c:        } else if (!strncmp(*argv, "-gamma", 2)) {    strlen=6, n=2
+[XXX] ./libpng-1.6.37_results/strncmp:./contrib/gregbook/rpng2-x.c:        } else if (!strncmp(*argv, "-bgcolor", 4)) {    strlen=8, n=4
+[XXX] ./libpng-1.6.37_results/strncmp:./contrib/gregbook/rpng2-x.c:        } else if (!strncmp(*argv, "-bgpat", 4)) {    strlen=6, n=4
+[XXX] ./libpng-1.6.37_results/strncmp:./contrib/gregbook/rpng2-x.c:        } else if (!strncmp(*argv, "-usleep", 2)) {    strlen=7, n=2
+[XXX] ./libpng-1.6.37_results/strncmp:./contrib/gregbook/rpng2-x.c:        } else if (!strncmp(*argv, "-pause", 2)) {    strlen=6, n=2
+[XXX] ./libpng-1.6.37_results/strncmp:./contrib/gregbook/rpng2-x.c:        } else if (!strncmp(*argv, "-timing", 2)) {    strlen=7, n=2
+[XXX] ./libpng-1.6.37_results/strncmp:./contrib/gregbook/rpng2-x.c:        } else if (!strncmp(*argv, "-loop", 2)) {    strlen=5, n=2
+[XXX] ./libpng-1.6.37_results/strncmp:./contrib/gregbook/wpng.c:        } else if (!strncmp(*argv, "-time", 3)) {    strlen=5, n=3
+[XXX] ./libpng-1.6.37_results/strncmp:./contrib/gregbook/wpng.c:        } else if (!strncmp(*argv, "-text", 3)) {    strlen=5, n=3
+[XXX] ./libpng-1.6.37_results/strncmp:./contrib/gregbook/wpng.c:        } else if (!strncmp(*argv, "-gamma", 2)) {    strlen=6, n=2
+[XXX] ./libpng-1.6.37_results/strncmp:./contrib/gregbook/wpng.c:        } else if (!strncmp(*argv, "-bgcolor", 4)) {    strlen=8, n=4
+[XXX] ./xen_results/strncmp:./stubdom/vtpmmgr/init.c:      if(!strncmp(argv[i], "owner_auth:", 10)) {    strlen=11, n=10
+[XXX] ./xen_results/strncmp:./stubdom/vtpmmgr/init.c:      else if(!strncmp(argv[i], "srk_auth:", 8)) {    strlen=9, n=8
+[XXX] ./openssh-portable_results/strncmp:./regress/netcat.c:		    strncmp(buf, "http/1.0 407 ", 12) == 0) {    strlen=13, n=12
+[XXX] ./openssh-portable_results/strncmp:./regress/netcat.c:		} else if (strncmp(buf, "http/1.0 200 ", 12) != 0 &&    strlen=13, n=12
+[XXX] ./openssh-portable_results/strncmp:./regress/netcat.c:		    strncmp(buf, "http/1.1 200 ", 12) != 0)    strlen=13, n=12
+[XXX] ./cups_results/strncmp:./filter/pstops.c:	     !strncmp(line, "%%pagerequirements:", 18) ||    strlen=19, n=18
+[XXX] ./cups_results/strncmp:./filter/pstops.c:    else if (!strncmp(line, "%%pagerequirements:", 18))    strlen=19, n=18
+[XXX] ./httpd_results/strnicmp:./server/mpm/netware/mpm_netware.c:        if (!strnicmp("restart",&szcommandline[icommandlen],3)) {    strlen=7, n=3
+[XXX] ./httpd_results/strnicmp:./server/mpm/netware/mpm_netware.c:        else if (!strnicmp("version",&szcommandline[icommandlen],3)) {    strlen=7, n=3
+[XXX] ./httpd_results/strnicmp:./server/mpm/netware/mpm_netware.c:        else if (!strnicmp("modules",&szcommandline[icommandlen],3)) {    strlen=7, n=3
+[XXX] ./httpd_results/strnicmp:./server/mpm/netware/mpm_netware.c:        else if (!strnicmp("directives",&szcommandline[icommandlen],3)) {    strlen=10, n=3
+[XXX] ./httpd_results/strnicmp:./server/mpm/netware/mpm_netware.c:        else if (!strnicmp("shutdown",&szcommandline[icommandlen],3)) {    strlen=8, n=3
+[XXX] ./httpd_results/strnicmp:./server/mpm/netware/mpm_netware.c:        else if (!strnicmp("settings",&szcommandline[icommandlen],3)) {    strlen=8, n=3
+[XXX] ./httpd_results/strnicmp:./server/mpm/netware/mpm_netware.c:            if (strnicmp("help",&szcommandline[icommandlen],3))    strlen=4, n=3
+[XXX] ./poco_results/strnicmp:./data/sqlite/src/sqlite3.c:  }else if( nval>11 && 0==sqlite3_strnicmp(zval, "maxpending=", 9) ){    strlen=11, n=9
+[XXX] ./fluent-bit_results/strnicmp:./lib/sqlite-amalgamation-3240000/sqlite3.c:  }else if( nval>11 && 0==sqlite3_strnicmp(zval, "maxpending=", 9) ){    strlen=11, n=9
+[XXX] ./gcc_results/strncat:./gcc/doc/invoke.texi:  strncat(buf, ".txt", 3);    strlen=4, n=3
+[XXX] ./glibc-2.30_results/strncat:./string/bug-strncat1.c:  strncat(d, "\5\6", 1);    strlen=2, n=1
+[XXX] ./glibc-2.30_results/strncat:./debug/tst-chk1.c:  strncat(buf, "zyxwv", 3);    strlen=5, n=3
+[XXXEXC] SyntaxError("(unicode error) 'unicodeescape' codec can't decode bytes in position 0-2: truncated \\xXX escape", ('<unknown>', 1, 0, None)) occured for line='./rtl8192cu-fixes_results/memcmp:./core/rtw_br_ext.c:\t\t\t\t\tif (memcmp(&iph->saddr, "\\x0\\x0\\x0\\x0\\x0\\x0\\x0\\x0\\x0\\x0\\x0\\x0\\x0\\x0\\x0\\x0", 16)) {'
+[XXX] ./rtl8192cu-fixes_results/memcmp:./os_dep/linux/ioctl_linux.c:	else if (_rtw_memcmp( extra, "tprobe=", 6 ) )    strlen=7, n=6
+[XXX] ./rspamd_results/memcmp:./contrib/hiredis/sds.c:            memcmp(x,"xyzxxxxxxxxxxyyyyyyyyyykkkkkkkkkk\0",33) == 0)    strlen=34, n=33
+[XXX] ./duda_results/memcmp:./packages/redis/sds.c:            memcmp(x,"xyzxxxxxxxxxxyyyyyyyyyykkkkkkkkkk\0",33) == 0)    strlen=34, n=33
+[XXXEXC] SyntaxError("(unicode error) 'unicodeescape' codec can't decode bytes in position 4-6: truncated \\xXX escape", ('<unknown>', 1, 0, None)) occured for line='./ffmpeg-4.2.2_results/memcmp:./libavformat/rmdec.c:    if (memcmp(p->buf, ".R1M\\x0\\x1\\x1", 7) &&'
+[XXXEXC] SyntaxError("(unicode error) 'unicodeescape' codec can't decode bytes in position 0-2: truncated \\xXX escape", ('<unknown>', 1, 0, None)) occured for line='./ffmpeg-4.2.2_results/memcmp:./libavformat/ac3dec.c:            if(!memcmp(buf2, "\\x1\\x10", 2)) {'
+[OK] ./vlc_results/memcmp:./modules/packetizer/dts_header.c:    if( memcmp( p_buf, "\x64\x58\x20\x25", 4 ) == 0 )    strlen=4, n=4 : arg1='p_buf', arg2='dX %'
+[XXX] ./git_results/memcmp:./t/t5100/msg0010:memcmp("subject: ", header[i], 7) will never match.    strlen=9, n=7
+[XXX] ./git_results/memcmp:./t/t5100/sample.mbox:memcmp("subject: ", header[i], 7) will never match.    strlen=9, n=7
+[XXX] ./h2o_results/memcmp:./deps/hiredis/sds.c:            memcmp(x,"xyzxxxxxxxxxxyyyyyyyyyykkkkkkkkkk\0",33) == 0)    strlen=34, n=33
+[XXX] ./redis-5.0.7_results/memcmp:./deps/hiredis/sds.c:            memcmp(x,"xyzxxxxxxxxxxyyyyyyyyyykkkkkkkkkk\0",33) == 0)    strlen=34, n=33
+[XXX] ./redis-5.0.7_results/memcmp:./src/sds.c:            memcmp(x,"xyzxxxxxxxxxxyyyyyyyyyykkkkkkkkkk\0",33) == 0)    strlen=34, n=33
+[XXX] ./sds_results/memcmp:./sds.c:            memcmp(x,"xyzxxxxxxxxxxyyyyyyyyyykkkkkkkkkk\0",33) == 0)    strlen=34, n=33
+[XXX] ./libarchive_results/memcmp:./libarchive/archive_read_support_filter_uu.c:			if (len - nl == 3 && memcmp(b, "end ", 3) == 0)    strlen=4, n=3
+[OK] ./libarchive_results/memcmp:./libarchive/archive_read_support_filter_xz.c:	if (memcmp(buffer, "\xfd\x37\x7a\x58\x5a\x00", 6) != 0)    strlen=6, n=6 : arg1='buffer', arg2='ý7zXZ\x00'
+[XXX] ./hiredis_results/memcmp:./sds.c:            memcmp(x,"xyzxxxxxxxxxxyyyyyyyyyykkkkkkkkkk\0",33) == 0)    strlen=34, n=33
+[XXX] ./gcc_results/strncasecmp:./gcc/c-family/c-format.c:	       && !strncasecmp(format_chars - 3, "can%'t", 5)    strlen=6, n=5
+[XXX] ./httpd_results/strncasecmp:./modules/mappers/mod_imagemap.c:        if (strncasecmp(imap_menu, "none", 2)) {    strlen=4, n=2
+[XXX] ./httpd_results/strncasecmp:./modules/metadata/mod_expires.c:    if (!strncasecmp(word, "now", 1) ||    strlen=3, n=1
+[XXX] ./httpd_results/strncasecmp:./modules/metadata/mod_expires.c:        !strncasecmp(word, "access", 1)) {    strlen=6, n=1
+[XXX] ./httpd_results/strncasecmp:./modules/metadata/mod_expires.c:    else if (!strncasecmp(word, "modification", 1)) {    strlen=12, n=1
+[XXX] ./httpd_results/strncasecmp:./modules/metadata/mod_expires.c:    if (!strncasecmp(word, "plus", 1)) {    strlen=4, n=1
+[XXX] ./httpd_results/strncasecmp:./modules/metadata/mod_expires.c:        if (!strncasecmp(word, "years", 1)) {    strlen=5, n=1
+[XXX] ./httpd_results/strncasecmp:./modules/metadata/mod_expires.c:        else if (!strncasecmp(word, "months", 2)) {    strlen=6, n=2
+[XXX] ./httpd_results/strncasecmp:./modules/metadata/mod_expires.c:        else if (!strncasecmp(word, "weeks", 1)) {    strlen=5, n=1
+[XXX] ./httpd_results/strncasecmp:./modules/metadata/mod_expires.c:        else if (!strncasecmp(word, "days", 1)) {    strlen=4, n=1
+[XXX] ./httpd_results/strncasecmp:./modules/metadata/mod_expires.c:        else if (!strncasecmp(word, "hours", 1)) {    strlen=5, n=1
+[XXX] ./httpd_results/strncasecmp:./modules/metadata/mod_expires.c:        else if (!strncasecmp(word, "minutes", 2)) {    strlen=7, n=2
+[XXX] ./httpd_results/strncasecmp:./modules/metadata/mod_expires.c:        else if (!strncasecmp(word, "seconds", 1)) {    strlen=7, n=1
+[XXX] ./httpd_results/strncasecmp:./modules/metadata/mod_usertrack.c:    if (!strncasecmp(word, "plus", 1)) {    strlen=4, n=1
+[XXX] ./httpd_results/strncasecmp:./modules/metadata/mod_usertrack.c:        if (!strncasecmp(word, "years", 1))    strlen=5, n=1
+[XXX] ./httpd_results/strncasecmp:./modules/metadata/mod_usertrack.c:        else if (!strncasecmp(word, "months", 2))    strlen=6, n=2
+[XXX] ./httpd_results/strncasecmp:./modules/metadata/mod_usertrack.c:        else if (!strncasecmp(word, "weeks", 1))    strlen=5, n=1
+[XXX] ./httpd_results/strncasecmp:./modules/metadata/mod_usertrack.c:        else if (!strncasecmp(word, "days", 1))    strlen=4, n=1
+[XXX] ./httpd_results/strncasecmp:./modules/metadata/mod_usertrack.c:        else if (!strncasecmp(word, "hours", 1))    strlen=5, n=1
+[XXX] ./httpd_results/strncasecmp:./modules/metadata/mod_usertrack.c:        else if (!strncasecmp(word, "minutes", 2))    strlen=7, n=2
+[XXX] ./httpd_results/strncasecmp:./modules/metadata/mod_usertrack.c:        else if (!strncasecmp(word, "seconds", 1))    strlen=7, n=1
+[XXX] ./binutils-gdb_results/strncasecmp:./gas/config/tc-hppa.c:      else if ((strncasecmp(name, "hpux_int", 7) == 0))    strlen=8, n=7
+[XXX] ./vlc_results/strncasecmp:./modules/demux/playlist/asx.c:            if( !strncasecmp( psz_node, "entryref", 7 ) )    strlen=8, n=7
+[XXX] ./postgresql-12.1_results/strncasecmp:./src/backend/utils/adt/jsonfuncs.c:				 pg_strncasecmp(v.val.string.val, "string", 5) == 0)    strlen=6, n=5
+[XXX] ./comdb2_results/strncasecmp:./plugins/newsql/newsql.c:                    } else if (strncasecmp(sqlstr, "blocksql", 7) == 0) {    strlen=8, n=7
+[XXX] ./comdb2_results/strncasecmp:./bdb/file.c:                && strncasecmp(bdb_state->name, "sqlite_stat1", 11) != 0)    strlen=12, n=11
+[XXX] ./comdb2_results/strncasecmp:./bdb/cursor.c:    if (strncasecmp(sql, "bdbshadow", 6) == 0) {    strlen=9, n=6
+[XXX] ./hplip-3.19.12_results/strncasecmp:./io/hpmud/hpmud.c:   else if (strncasecmp(sn, "hp-marvell-ews", 11) == 0)    strlen=14, n=11
+[XXX] ./weechat_results/strncasecmp:./doc/ja/weechat_plugin_api.ja.adoc:int diff = weechat_strncasecmp("aabb", "aacc", 2);  /* == 0 */    strlen=4, n=2
+[XXX] ./weechat_results/strncasecmp:./doc/it/weechat_plugin_api.it.adoc:int diff = weechat_strncasecmp("aabb", "aacc", 2);  /* == 0 */    strlen=4, n=2
+[XXX] ./weechat_results/strncasecmp:./doc/fr/weechat_plugin_api.fr.adoc:int diff = weechat_strncasecmp("aabb", "aacc", 2);  /* == 0 */    strlen=4, n=2
+[XXX] ./weechat_results/strncasecmp:./doc/en/weechat_plugin_api.en.adoc:int diff = weechat_strncasecmp("aabb", "aacc", 2);  /* == 0 */    strlen=4, n=2
+[XXX] ./libhttpd-2.0_results/strncasecmp:./src/api.c:			if (strncasecmp(buf,"cookie: ",7) == 0)    strlen=8, n=7
