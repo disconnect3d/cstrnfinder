@@ -26,7 +26,7 @@ This isn’t very convenient and… may introduce bugs.
 ## Size is the issue
 So this function allows for passing any size no matter what is the length of the two argument strings. This might be handy, but would also accept mistakes. One of such that can also be easily detected, is a case when one of the arguments is a string literal and the size passed is smaller then the length of the string. And this is what the cstrnfinder project was created for.
 
-## How it started
+## Initial search
 I initially looked for bugs manually and via simple greps:
 ```
 git grep -i 'strncmp[ ]?[(].*[)]' > "$RESULTS_PATH/strncmp"
