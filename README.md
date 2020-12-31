@@ -118,8 +118,8 @@ As said previously, a lot of the findings are false positives, as they are e.g. 
 * [Linux kernel - Fix off by one in tools/perf strncpy size argument](https://lore.kernel.org/lkml/20200309104855.3775-1-dominik.b.czarnota@gmail.com/)
 * [Linux kernel - Fix off by one in samsung driver strncpy size arg](https://lore.kernel.org/lkml/20200309152250.5686-1-dominik.b.czarnota@gmail.com/)
 * [Linux kernel - Fix off by one in nvidia driver strncpy size arg](https://lore.kernel.org/lkml/20200309124947.4502-1-dominik.b.czarnota@gmail.com/)
-* [GCC 10.x (trunk) - write_only and read_write attributes can be mistyped due to invalid strncmp size argument](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=93640)
-* [GCC 10.x (trunk) - others, not triaged issues](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=93641)
+* [GCC 10.x (trunk) - 2 issues: write_only and read_write attributes can be mistyped due to invalid strncmp size argument](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=93640)
+* [GCC 10.x (trunk) - 3 not triaged issues](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=93641)
 * [PostgreSQL’s `json_to_tsvector` mistyped types](https://www.postgresql.org/message-id/CABEVAa1dU0mDCAfaT8WF2adVXTDsLVJy_izotg6ze_hh-cn8qQ%40mail.gmail.com) - [PoC here](https://gist.github.com/disconnect3d/dcfccfc1102c4f46417f5e71922aacea)
 * [google/google-input-tools - off-by-ones when parsing XML comments](https://github.com/google/google-input-tools/pull/17), initially reported to Google via https://www.google.com/appserve/security-bugs/
 * [facebook/redex - missing “/” character](https://github.com/facebook/redex/pull/473)
