@@ -8,7 +8,7 @@ PS: For a bugs list, scroll down.
 
 PS2: You can find the full [`cstrnfinder.py` script here](https://github.com/disconnect3d/cstrnfinder/blob/master/cstrnfinder.py). You may want to ignore other files in this repo: e.g. it contains some partial results, or, the [gcp-finder.py script](https://github.com/disconnect3d/cstrnfinder/blob/master/gcp-finder.py) used to filter out tons of results from querying the GitHub dataset via Google BigQuery.
 
-This project was created during IRAD time at Trail of Bits, along with the small "blog post" below :).
+This project was created during IRAD time at Trail of Bits, along with the small "blog post" below :). It describes the whole process of this research. If you are only interested in the issue and results, read the first two (`How it started`, `Size is the issue`) and the other two (`Bugs != vulnerabilities`, `Reported or fixed bugs`) sections.
 
 ## How it started
 
@@ -21,7 +21,7 @@ int strncmp(const char *s1, const char *s2, size_t n);
 Which accepts the two C-strings and the number of bytes we want to compare. So we could use it like this:
 
 ```c
-strncmp(some_cstring, “prefix_”, 7);
+strncmp(some_cstring, "prefix_", 7);
 ```
 
 This isn’t very convenient and… may introduce bugs.
@@ -42,7 +42,7 @@ git grep -i 'strncasecmp[ ]?[(].*[)]' > "$RESULTS_PATH/strncasecmp"
 accompanied with a script that parsed the output of `str*` function calls, filtered the ones that used a string literal as an argument and checked its length against the size argument. And I downloaded ~300 different C codebases manually to look for those. I found some bugs but I also needed a more scalable solution.
 
 ## Meet Google BigQuery
-I reminded myself of a [LiveOverflow’s yt video about finding bitcoin keys in GitHub repos through Google BigQuery](https://www.youtube.com/watch?v=Xml4Gx3huag). I started playing with Google BigQuery and used its `bigquery-public-data.github_repos` tables. As of the time writing this, this dataset was last updated on 20th of March and contains data from 2.5M repositories. The ‘contents’ table which holds the text files (and so code) has 274GB of data.
+I reminded myself of a [LiveOverflow’s yt video about finding bitcoin keys in GitHub repos through Google BigQuery](https://www.youtube.com/watch?v=Xml4Gx3huag). I started playing with Google BigQuery and used its `bigquery-public-data.github_repos` tables. As of the time writing this, this dataset was last updated on 20th of March 2020 and contains data from 2.5M repositories. The "contents" table which holds the text files (and so code) has 274GB of data.
 
 ## The query
 I wrote the query shown below to find all `str*` calls in all GitHub repositories. Note that the `lines` column is an array of all `str*` function calls. Iirc it doesn’t matter if it was in one line or span across many lines.
@@ -80,7 +80,7 @@ The regex would catch, iirc 5-6 recursive calls in arguments passed to `str*` fu
 ## The result set
 The query finds all `str*` calls in all GitHub repositories so there are 33M files that contain the findings, so there are even more results, which number I haven’t checked. Filtering the findings by those that use a string literal argument and a number literal size argument gives “only” 2M results. Filtering further by those when the size is less than the string literal length gives 372K results. However, in reality, there are tons of duplicates from forks, indirect forks and from vendoring dependencies.
 
-I narrowed down the results to 11.8k by filtering out the duplicates. I did this by taking only the entry/finding from the most starred repositories. I took the repository stars information from [`githubarchive` dataset `githubarchive`](https://stackoverflow.com/questions/42918135/how-to-get-total-number-of-github-stars-for-a-given-repo-in-bigquery) and assumed that two findings were duplicates when their content and part of its path (its last directory and its filename) matched.
+I narrowed down the results to 11.8k records by filtering out the duplicates. I did this by taking only the entry/finding from the most starred repositories. I took the repository stars information from [`githubarchive` dataset](https://stackoverflow.com/questions/42918135/how-to-get-total-number-of-github-stars-for-a-given-repo-in-bigquery) and assumed that two findings were duplicates when their content and part of its path (its last directory and its filename) matched.
 
 I still haven’t gotten through all the results and a lot of them are false positives. Let me give some examples:
 
