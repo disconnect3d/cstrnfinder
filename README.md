@@ -1,14 +1,14 @@
 # cstrnfinder: finding stupid bugs
 
-TL;DR: This is a repository for a "cstrnfinder" research, where I searched lots of code to find stupid bugs related to how C strings are compared against string literals with a (potentially incorrect) hardcoded size argument.
+TL;DR: This is a repository for a "cstrnfinder" research, where I searched lots of code and found 50+ stupid bugs(?) related to how C strings are compared against string literals with a (potentially incorrect) hardcoded size argument.
 
 I presented this research (along with other things) on [A Midwinter Night's Con - 2020](https://absoluteappsec.com/cons/midwinter-2020/). You can [find the slides here](https://docs.google.com/presentation/d/1VpXqzPIPrfIPSIiua5ClNkjKAzM3uKlyAKUf0jBqoUI) or [watch the talk here](https://www.youtube.com/watch?v=-xVBd8MGlJs). If you want to discuss it more, reply to this [tweet](https://twitter.com/disconnect3d_pl/status/1339757359896408065).
 
-PS: For a bugs list, scroll down.
+PS: For a list of reported or fixed bugs, scroll to the `Reported or fixed bugs` section.
 
 PS2: You can find the full [`cstrnfinder.py` script here](https://github.com/disconnect3d/cstrnfinder/blob/master/cstrnfinder.py). You may want to ignore other files in this repo: e.g. it contains some partial results, or, the [gcp-finder.py script](https://github.com/disconnect3d/cstrnfinder/blob/master/gcp-finder.py) used to filter out tons of results from querying the GitHub dataset via Google BigQuery.
 
-This project was created during IRAD time at Trail of Bits, along with the small "blog post" below :). It describes the whole process of this research. If you are only interested in the issue and results, read the first two (`How it started`, `Size is the issue`) and the other two (`Bugs != vulnerabilities`, `Reported or fixed bugs`) sections.
+This project was created during IRAD time at Trail of Bits, along with the small "blog post" below :).
 
 ## How it started
 
