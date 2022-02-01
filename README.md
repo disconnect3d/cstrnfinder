@@ -1,6 +1,6 @@
 # cstrnfinder: finding stupid bugs
 
-This is a repository for a "cstrnfinder" research, where I searched lots of code and found 50+ stupid bugs(?) related to how C strings are compared against string literals with a (sometimes) incorrect hardcoded size argument.
+This is a repository for a "cstrnfinder" research, where I searched lots of code and found 50+ stupid bugs(?) related to how C strings are compared against string literals with (sometimes) incorrect hardcoded size argument.
 
 I presented this research (along with other things) on [A Midwinter Night's Con - 2020](https://absoluteappsec.com/cons/midwinter-2020/). You can [find the slides here](https://docs.google.com/presentation/d/1VpXqzPIPrfIPSIiua5ClNkjKAzM3uKlyAKUf0jBqoUI) or [watch the talk here](https://www.youtube.com/watch?v=-xVBd8MGlJs). If you want to discuss it more, reply to this [tweet](https://twitter.com/disconnect3d_pl/status/1339757359896408065).
 
