@@ -6,7 +6,7 @@ I presented this research (along with other things) on [A Midwinter Night's Con 
 
 PS: For a list of reported or fixed bugs, scroll to the `Reported or fixed bugs` section.
 
-PS2: If you want to use it on your project, use the steps from docstring in [`cstrnfinder.py` script](https://github.com/disconnect3d/cstrnfinder/blob/master/cstrnfinder.py), or, if you are using GitHub's CodeQL use [this query](https://github.com/disconnect3d/cstrnfinder#codeql-query). You may want to ignore other files in this repo: e.g. it contains some partial results, or, the [gcp-finder.py script](https://github.com/disconnect3d/cstrnfinder/blob/master/gcp-finder.py) used to filter out tons of results from querying the GitHub dataset via Google BigQuery.
+PS2: If you want to find such bugs in your project, use the steps from docstring in [`cstrnfinder.py` script](https://github.com/disconnect3d/cstrnfinder/blob/master/cstrnfinder.py), or, if you are using GitHub's CodeQL use [this query](https://github.com/disconnect3d/cstrnfinder#codeql-query). You may want to ignore other files in this repo: e.g. it contains some partial results, or, the [gcp-finder.py script](https://github.com/disconnect3d/cstrnfinder/blob/master/gcp-finder.py) used to filter out tons of results from querying the GitHub dataset via Google BigQuery.
 
 This project was created during IRAD time at Trail of Bits, along with the small "blog post" below :).
 
