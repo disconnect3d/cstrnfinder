@@ -19,6 +19,8 @@ And then:
 Or grep for YYY or for ZZZ
 ```
 
+or use the CodeQL query described in this README.
+
 ## How it started
 
 Reading some C code I started wondering about how we use string literals with string comparison and other functions. For example, when we want to check if a given C-string starts with another one there is no `startswith` function and we have to use the `strncmp` function instead:
