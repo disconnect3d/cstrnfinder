@@ -4,11 +4,20 @@ This is a repository for a "cstrnfinder" research, where I searched lots of code
 
 I presented this research (along with other things) on [A Midwinter Night's Con - 2020](https://absoluteappsec.com/cons/midwinter-2020/). You can [find the slides here](https://docs.google.com/presentation/d/1VpXqzPIPrfIPSIiua5ClNkjKAzM3uKlyAKUf0jBqoUI) or [watch the talk here](https://www.youtube.com/watch?v=-xVBd8MGlJs). If you want to discuss it more, reply to this [tweet](https://twitter.com/disconnect3d_pl/status/1339757359896408065).
 
-PS: For a list of reported or fixed bugs, scroll to the `Reported or fixed bugs` section.
-
-PS2: If you want to find such bugs in your project, use the steps from docstring in [`cstrnfinder.py` script](https://github.com/disconnect3d/cstrnfinder/blob/master/cstrnfinder.py), or, if you are using GitHub's CodeQL use [this query](https://github.com/disconnect3d/cstrnfinder#codeql-query). You may want to ignore other files in this repo: e.g. it contains some partial results, or, the [gcp-finder.py script](https://github.com/disconnect3d/cstrnfinder/blob/master/gcp-finder.py) used to filter out tons of results from querying the GitHub dataset via Google BigQuery.
-
 This project was created during IRAD time at Trail of Bits, along with the small "blog post" below :).
+
+For a list of reported or fixed bugs, scroll to the `Reported or fixed bugs` section.
+
+### TL;DR: I want to run cstrnfinder
+
+Either grep for strn* functions and use the cstrnfinder.py script:
+```
+Manual search:
+    egrep -Ri '(strncmp|strnicmp|strncat|stpncpy|strncpy|strncasecmp|memcmp|memcpy|memmove|mempcpy|wmemcpy|wmemmove|wmempcpy|bcopy|bcmp)[ ]?[(].*[)]' . > ../findings
+And then:
+    cat ../findings | python cstrnfinder.py | grep XXX
+Or grep for YYY or for ZZZ
+```
 
 ## How it started
 
