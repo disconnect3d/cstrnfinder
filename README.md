@@ -8,6 +8,8 @@ This project was created during IRAD time at Trail of Bits, along with the small
 
 For a list of reported or fixed bugs, scroll to the `Reported or fixed bugs` section.
 
+* There is also a version for binaries made as a [Binary Ninja plugin created by murx-](https://github.com/murx-/cstrnfinder)
+
 ### TL;DR: I want to run cstrnfinder
 
 Either grep for strn* functions and use the cstrnfinder.py script:
