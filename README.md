@@ -116,13 +116,13 @@ As we can see, often a longer string literal then the size argument is passed, e
 ## Bugs != vulnerabilities
 A lot of bugs found that way are not security vulnerabilities. Though, it is possible there are some vulns like this. This could be:
 
-* When a path is matched without its ending `/` character: `strncmp(var, “path/”, 4)`
-* When an extension is incorrectly matched: `strncmp(var, “.exe”, 3)` and e.g. not filtered
+* When a path is matched without its ending `/` character: `strncmp(var, "path/", 4)`
+* When an extension is incorrectly matched: `strncmp(var, ".exe", 3)` and e.g. not filtered
 * When parsing some format and mismatching some syntax due to wrong size
 * When your other if branch is not reachable due to previous incorrect match ([almost a thing here](https://github.com/SerenityS/android_kernel_lge_g3/blob/lollipop/drivers/misc/tspdrv/touch_fops.c#L92-L98) - though they still do not unset the `IMMR_DEB` flag):
 ```c
-if (strncmp(buf, “debugon”, 5) == 0) { IMMR_DEB = true; }
-else if (strncmp(buf, “debugoff”, 8) == 0) { …}
+if (strncmp(buf, "debugon", 5) == 0) { IMMR_DEB = true; }
+else if (strncmp(buf, "debugoff", 8) == 0) { …}
 ```
 
 ## Reported or fixed bugs
